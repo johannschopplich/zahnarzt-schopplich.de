@@ -2,7 +2,7 @@
   <div class="pb-xl">
     <section class="container is-md">
       <div class="content bg-white p-l">
-        <h2 class="text-center" style="color: var(--color-danger)">
+        <h2 class="text-center color-danger">
           Die Zahnarztpraxis ist vom 5.–22. November wegen Urlaubs geschlossen.
         </h2>
         <p>
@@ -23,7 +23,7 @@
           (nicht am 13. November 2020)
         </p>
         <p>
-          <strong style="color: var(--color-danger)">
+          <strong class="color-danger">
             Bitte melden Sie sich telefonisch an!
           </strong>
         </p>

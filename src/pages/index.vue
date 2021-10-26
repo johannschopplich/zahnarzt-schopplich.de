@@ -3,7 +3,7 @@
     <section class="container is-md text-center">
       <h1 class="title text-hero lh-1 mb-xs">
         Zahnarztpraxis<br />
-        <span class="underlined">Sebastian Schopplich</span>
+        <span class="title-underline">Sebastian Schopplich</span>
       </h1>
       <div class="mb-xl">
         <p class="mb-xs">Johannes-R.-Becher-Straße 66 in 07546 Gera-Bieblach</p>
