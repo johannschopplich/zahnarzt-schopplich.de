@@ -1,12 +1,15 @@
 <template>
   <div class="section">
     <section class="container is-md text-center">
-      <h1 class="title text-hero lh-1 mb-xs">
+      <h1 class="title title-hero lh-1 mb-xxs">
         Zahnarztpraxis<br />
         <span class="title-underline">Sebastian Schopplich</span>
       </h1>
       <div class="mb-xl">
-        <p class="mb-xs">Johannes-R.-Becher-Straße 66 in 07546 Gera-Bieblach</p>
+        <p class="mb-xs">
+          Johannes-R.-Becher-Straße 66<br class="md:d-none" />
+          in 07546 Gera-Bieblach
+        </p>
         <a href="tel:03654204317" class="button is-primary is-outlined">
           <carbon-phone-filled class="mr-xxs" aria-hidden="true" />
           0365 / 420 43 17
