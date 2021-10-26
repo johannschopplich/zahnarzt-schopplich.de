@@ -8,7 +8,7 @@
 pnpm dev
 ```
 
-Afterwards, visit [localhost:3333](http://localhost:3333).
+Afterwards, visit [localhost:3000](http://localhost:3000).
 
 ### Build
 
