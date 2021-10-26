@@ -20,10 +20,11 @@ a.text-underline {
   text-decoration-thickness: max(1px, 0.05em);
   text-underline-offset: max(2px, 0.125em);
   text-decoration-skip-ink: auto;
+}
 
-  &:hover {
-    text-decoration-color: currentColor;
-  }
+a:not([class]):hover,
+a.text-underline:hover {
+  text-decoration-color: currentColor;
 }
 
 .text-hero {
