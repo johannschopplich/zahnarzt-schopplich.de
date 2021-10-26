@@ -8,7 +8,7 @@
   </div>
 
   <div class="container is-md is-fullwidth">
-    <NavBack class="navigation text-7 mb-xs mr-xs" />
+    <Navigation class="mb-xs mr-xs" />
 
     <section class="box">
       <slot />
@@ -50,19 +50,3 @@ if (isClient) {
   })
 }
 </script>
-
-<style scoped>
-.navigation {
-  display: flex;
-  align-items: center;
-  position: relative;
-  text-transform: uppercase;
-}
-
-.navigation::after {
-  content: '';
-  height: 1px;
-  background-color: var(--color-primary);
-  width: 100%;
-}
-</style>

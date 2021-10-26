@@ -1,5 +1,5 @@
 <template>
-  <nav v-if="route.path !== '/'">
+  <nav v-if="route.path !== '/'" class="navigation">
     <router-link
       :to="route.path.split('/').slice(0, -1).join('/') || '/'"
       class="button is-text"
@@ -13,3 +13,20 @@
 import { useRoute } from 'vue-router'
 const route = useRoute()
 </script>
+
+<style scoped>
+nav {
+  display: flex;
+  align-items: center;
+  position: relative;
+  font-size: var(--text-7);
+  text-transform: uppercase;
+}
+
+nav::after {
+  content: '';
+  height: 1px;
+  background-color: var(--color-primary);
+  width: 100%;
+}
+</style>

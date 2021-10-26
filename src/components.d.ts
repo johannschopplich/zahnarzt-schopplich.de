@@ -5,12 +5,13 @@
 declare module 'vue' {
   export interface GlobalComponents {
     CarbonArrowLeft: typeof import('~icons/carbon/arrow-left')['default']
-    CarbonDirectionLoopLeft: typeof import('~icons/carbon/direction-loop-left')['default']
-    CarbonDirectionLoopLeftFilled: typeof import('~icons/carbon/direction-loop-left-filled')['default']
     CarbonHelp: typeof import('~icons/carbon/help')['default']
     CarbonPhoneFilled: typeof import('~icons/carbon/phone-filled')['default']
     Footer: typeof import('./components/Footer.vue')['default']
-    NavBack: typeof import('./components/NavBack.vue')['default']
+    Navigation: typeof import('./components/Navigation.vue')['default']
+    NoticeCorona: typeof import('./components/NoticeCorona.vue')['default']
+    NoticeHoliday: typeof import('./components/NoticeHoliday.vue')['default']
+    NoticeJob: typeof import('./components/NoticeJob.vue')['default']
     Post: typeof import('./components/Post.vue')['default']
   }
 }
