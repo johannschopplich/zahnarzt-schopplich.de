@@ -26,7 +26,7 @@
             Mo<span class="d-none md:d-inline">ntag</span><br />
             Di<span class="d-none md:d-inline">enstag</span><br />
             Mi<span class="d-none md:d-inline">ttwoch</span><br />
-            Do<span class="d-none md:d-inline">nerstag</span><br />
+            Do<span class="d-none md:d-inline">nnerstag</span><br />
             Fr<span class="d-none md:d-inline">eitag</span>
           </p>
         </div>
