@@ -22,4 +22,4 @@ The generated files will be put into `dist`, ready to be served.
 
 ## Credits
 
-[@antfu](https://github.com/antfu) for all of his incredible work and contributions to the community, including Vitesse, which this repository is forked from.
+[@antfu](https://github.com/antfu) for all of his incredible work and contributions to the community, including Vitesse, which this repository is inspired from.

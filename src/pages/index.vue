@@ -16,13 +16,13 @@
         </a>
       </div>
 
-      <h2 class="title text-4 mb-xxs">Öffnungszeiten</h2>
       <div class="columns is-centered">
         <div
           class="column is-narrow text-left mr-s pr-s"
           style="border-right: 1px solid"
         >
-          <p>
+          <h2 class="title text-4 mb-xxs">&nbsp;</h2>
+          <p class="text-primary">
             Mo<span class="d-none md:d-inline">ntag</span><br />
             Di<span class="d-none md:d-inline">enstag</span><br />
             Mi<span class="d-none md:d-inline">ttwoch</span><br />
@@ -31,6 +31,9 @@
           </p>
         </div>
         <div class="column is-narrow text-left">
+          <h2 class="position-relative title title-opening-hours text-4 mb-xxs">
+            Öffnungszeiten
+          </h2>
           <p>
             8.00-13.00 Uhr und 13.30-16.00 Uhr<br />
             8.00-13.30 Uhr und 14.15-17.30 Uhr<br />
@@ -64,5 +67,26 @@
     0 calc(100% - 0.5rem)
   );
   border-bottom: calc(0.5rem - 1px) solid var(--color-primary);
+}
+
+.title-opening-hours::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: calc(-1 * var(--space-s));
+  width: var(--space-xs);
+  height: 1px;
+  background-color: currentColor;
+  /* transform: translateY(-50%); */
+}
+
+.title-opening-hours::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: calc(-1 * var(--space-s) + -2px);
+  width: var(--space-xs);
+  height: 50%;
+  background-color: var(--color-background);
 }
 </style>
