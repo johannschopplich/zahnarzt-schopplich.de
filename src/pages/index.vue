@@ -1,7 +1,7 @@
 <template>
   <div class="section">
     <section class="container is-md text-center">
-      <h1 class="title title-hero lh-1 mb-xxs">
+      <h1 class="title title-hero lh-1">
         Zahnarztpraxis<br />
         <span class="title-underline">Sebastian Schopplich</span>
       </h1>
@@ -19,28 +19,24 @@
       <h2 class="title text-4 mb-xxs">Öffnungszeiten</h2>
       <div class="columns is-centered">
         <div
-          class="column is-narrow text-left mr-s pr-s d-none sm:d-block"
+          class="column is-narrow text-left mr-s pr-s"
           style="border-right: 1px solid"
         >
           <p>
-            Montag<br />
-            Dienstag<br />
-            Mittwoch<br />
-            Donnerstag<br />
-            Freitag
+            Mo<span class="d-none md:d-inline">ntag</span><br />
+            Di<span class="d-none md:d-inline">enstag</span><br />
+            Mi<span class="d-none md:d-inline">ttwoch</span><br />
+            Do<span class="d-none md:d-inline">nerstag</span><br />
+            Fr<span class="d-none md:d-inline">eitag</span>
           </p>
         </div>
         <div class="column is-narrow text-left">
           <p>
-            <strong class="sm:d-none">Montag<br /></strong>
             8.00-13.00 Uhr und 13.30-16.00 Uhr<br />
-            <strong class="sm:d-none">Dienstag<br /></strong>
             8.00-13.30 Uhr und 14.15-17.30 Uhr<br />
-            <strong class="sm:d-none">Mittwoch<br /></strong>
             8.00-13.00 Uhr<br />
-            <strong class="sm:d-none">Donnerstag<br /></strong>
             8.30-13.30 Uhr und 14.15-18.00 Uhr<br />
-            <strong class="sm:d-none">Freitag<br /></strong>8.00-12.00 Uhr
+            8.00-12.00 Uhr
           </p>
         </div>
       </div>
@@ -53,3 +49,20 @@
 
   <NoticeCorona />
 </template>
+
+<style>
+.title-hero {
+  font-family: Times, Times New Roman, serif;
+  font-size: calc(var(--text-1) + 1vw);
+  clip-path: polygon(
+    0 0,
+    100% 0,
+    100% calc(100% - 0.5rem),
+    calc(50% + 0.5rem) calc(100% - 0.5rem),
+    50% 100%,
+    calc(50% - 0.5rem) calc(100% - 0.5rem),
+    0 calc(100% - 0.5rem)
+  );
+  border-bottom: calc(0.5rem - 1px) solid var(--color-primary);
+}
+</style>
