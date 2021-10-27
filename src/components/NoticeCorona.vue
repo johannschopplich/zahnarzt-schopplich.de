@@ -7,13 +7,13 @@
       </h2>
       <p>
         Bitte beachten Sie unsere
-        <strong class="color-danger">
+        <strong class="text-danger">
           Schutzmaßnahmen vor der Ausbreitung des Coronavirus</strong
         >. Die Gefahr einer Ansteckung mit dem neuartigen Coronavirus ist zur
         Zeit hoch.
       </p>
 
-      <h2 class="color-danger">
+      <h2 class="text-danger">
         Bitte betreten Sie die Praxis nicht sofort, sondern beantworten Sie sich
         erst folgende Fragen:
       </h2>
@@ -58,7 +58,7 @@
         Gern besprechen wir dann gemeinsam das weitere Vorgehen und kontaktieren
         Ihren betreuenden Hausarzt.
       </p>
-      <h3 class="color-danger">
+      <h3 class="text-danger">
         Haben Sie alle Fragen mit „Nein“ beantwortet, steht Ihrer Behandlung
         nichts im Wege. Sie können Ihre geplanten Termine unverändert
         wahrnehmen.

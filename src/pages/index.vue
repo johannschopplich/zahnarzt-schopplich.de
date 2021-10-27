@@ -46,7 +46,11 @@
     </section>
   </div>
 
-  <div class="section">
+  <div class="pb-xl">
+    <NoticeHoliday />
+  </div>
+
+  <div class="pb-xl">
     <NoticeJob />
   </div>
 
