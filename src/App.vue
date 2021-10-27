@@ -11,8 +11,9 @@ import { computed } from 'vue'
 import { useRoute } from 'vue-router'
 import { useHead } from '@vueuse/head'
 
+const base = 'https://zahnarzt-schopplich.de'
 const route = useRoute()
-const url = computed(() => `https://zahnarzt-schopplich.de${route.path}`)
+const url = computed(() => base + route.path)
 const description =
   'Erfahren Sie mehr über unser Angebot oder vereinbaren Sie direkt Ihren Termin bei uns! Unser Praxis-Team in Bieblach-Ost freut sich auf Ihren Besuch.'
 
@@ -26,7 +27,7 @@ useHead({
     { property: 'og:type', content: 'website' },
     { property: 'og:title', content: 'Zahnarzt Sebastian Schopplich' },
     { property: 'og:description', content: description },
-    { property: 'og:image', content: '/android-chrome-512x512.png' },
+    { property: 'og:image', content: `${base}/android-chrome-512x512.png` },
   ],
 })
 </script>

@@ -33,6 +33,6 @@
 <style>
 .bordered-box {
   border: 1px solid var(--color-contrast-lowest);
-  padding: var(--space-s);
+  padding: var(--component-spacer);
 }
 </style>
