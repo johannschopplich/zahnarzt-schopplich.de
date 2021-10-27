@@ -21,7 +21,7 @@
           class="column is-narrow text-left mr-s pr-s"
           style="border-right: 1px solid"
         >
-          <h2 class="title text-4 mb-xxs">&nbsp;</h2>
+          <div class="title text-4 unselectable mb-xxs">&nbsp;</div>
           <p class="text-primary">
             Mo<span class="d-none md:d-inline">ntag</span><br />
             Di<span class="d-none md:d-inline">enstag</span><br />
