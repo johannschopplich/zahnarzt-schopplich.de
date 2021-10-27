@@ -1,7 +1,7 @@
 <template>
   <div class="section">
     <section class="container is-md text-center">
-      <h1 class="title title-hero lh-1">
+      <h1 class="title title-hero lh-1 mb-s">
         Zahnarztpraxis<br />
         <span class="title-underline">Sebastian Schopplich</span>
       </h1>
@@ -53,20 +53,31 @@
   <NoticeCorona />
 </template>
 
-<style>
+<style scoped>
 .title-hero {
   font-family: Times, Times New Roman, serif;
-  font-size: calc(var(--text-1) + 1vw);
-  clip-path: polygon(
-    0 0,
-    100% 0,
-    100% calc(100% - 0.5rem),
-    calc(50% + 0.5rem) calc(100% - 0.5rem),
-    50% 100%,
-    calc(50% - 0.5rem) calc(100% - 0.5rem),
-    0 calc(100% - 0.5rem)
-  );
-  border-bottom: calc(0.5rem - 1px) solid var(--color-primary);
+  font-size: var(--text-2);
+}
+
+@media (min-width: 768px) {
+  .title-hero {
+    font-size: calc(var(--text-1) + 1vw);
+  }
+}
+
+.title-underline {
+  position: relative;
+}
+
+.title-underline::after {
+  content: '';
+  position: absolute;
+  bottom: -8px;
+  left: 50%;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 8px solid var(--color-primary);
+  transform: translateX(-50%);
 }
 
 .title-opening-hours::before {
@@ -77,7 +88,6 @@
   width: var(--space-xs);
   height: 1px;
   background-color: currentColor;
-  /* transform: translateY(-50%); */
 }
 
 .title-opening-hours::after {
