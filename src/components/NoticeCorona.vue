@@ -18,7 +18,7 @@
         erst folgende Fragen:
       </h2>
       <div class="columns text-left">
-        <div class="column is-narrow pr-xs">
+        <div class="column is-narrow pr-xs" aria-hidden="true">
           <carbon-help />
         </div>
         <div class="column">
@@ -31,7 +31,7 @@
         </div>
       </div>
       <div class="columns text-left">
-        <div class="column is-narrow pr-xs">
+        <div class="column is-narrow pr-xs" aria-hidden="true">
           <carbon-help />
         </div>
         <div class="column">

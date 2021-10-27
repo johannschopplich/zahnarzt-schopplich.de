@@ -4,7 +4,7 @@
       :to="route.path.split('/').slice(0, -1).join('/') || '/'"
       class="button is-text"
     >
-      <carbon-arrow-left class="text-primary mr-xxs" />Zurück
+      <carbon-arrow-left class="text-primary mr-xxs" aria-hidden="true" />Zurück
     </router-link>
   </nav>
 </template>
@@ -18,7 +18,6 @@ const route = useRoute()
 nav {
   display: flex;
   align-items: center;
-  position: relative;
   font-size: var(--text-7);
   text-transform: uppercase;
 }
