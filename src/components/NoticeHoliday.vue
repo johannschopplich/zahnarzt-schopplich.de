@@ -21,11 +21,12 @@
               <carbon-phone-filled class="mr-xxs" aria-hidden="true" />
               03 65 / 800 11 60</a
             >
+            <p class="text-danger text-7">
+              Bitte melden Sie sich telefonisch an!
+            </p>
           </div>
         </div>
       </div>
-
-      <p class="text-danger">Bitte melden Sie sich telefonisch an!</p>
     </div>
   </section>
 </template>
@@ -34,5 +35,6 @@
 .bordered-box {
   border: 1px solid var(--color-contrast-lowest);
   padding: var(--component-spacer);
+  border-radius: var(--radius);
 }
 </style>
