@@ -27,7 +27,7 @@
     "critters": "^0.0.14",
     "eslint": "^8.1.0",
     "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-vue": "^7.20.0",
+    "eslint-plugin-vue": "^8.0.1",
     "https-localhost": "^4.7.0",
     "markdown-it-anchor": "^8.4.1",
     "pnpm": "^6.19.1",
