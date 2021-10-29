@@ -17,21 +17,11 @@
 </template>
 
 <script setup lang="ts">
-import { computed, onMounted } from 'vue'
+import { onMounted } from 'vue'
 import { isClient, useEventListener } from '@vueuse/core'
-import { useHead } from '@vueuse/head'
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 const props = defineProps<{ frontmatter: any }>()
-
-const title = computed(
-  () => `${props.frontmatter.title} – Zahnarztpraxis Schopplich`
-)
-
-useHead({
-  title,
-  meta: [{ property: 'og:title', content: title }],
-})
 
 const navigate = () => {
   if (window.location.hash) {

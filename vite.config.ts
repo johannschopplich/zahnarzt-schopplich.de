@@ -62,7 +62,7 @@ export default defineConfig({
     Markdown({
       wrapperComponent: 'post',
       wrapperClasses: 'content',
-      headEnabled: true,
+      // headEnabled: true,
 
       markdownItSetup(md) {
         md.use(MarkdownItAnchor, {

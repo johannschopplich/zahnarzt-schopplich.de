@@ -11,13 +11,23 @@ import { computed } from 'vue'
 import { useRoute } from 'vue-router'
 import { useHead } from '@vueuse/head'
 
-const base = 'https://zahnarzt-schopplich.de'
 const route = useRoute()
-const url = computed(() => base + route.path)
 
-const title = 'Zahnarztpraxis Sebastian Schopplich'
-const description =
-  'Erfahren Sie mehr über unser Angebot oder vereinbaren Sie direkt Ihren Termin bei uns! Unser Praxis-Team in Bieblach-Ost freut sich auf Ihren Besuch.'
+const base = 'https://zahnarzt-schopplich.de'
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+const matter = computed<any>(() => route.meta?.frontmatter)
+
+const url = computed(() => base + route.path)
+const title = computed(() =>
+  matter.value?.title
+    ? `${matter.value.title} – Zahnarztpraxis Schopplich`
+    : 'Zahnarztpraxis Sebastian Schopplich'
+)
+const description = computed(
+  () =>
+    matter.value?.description ??
+    'Erfahren Sie mehr über unser Angebot oder vereinbaren Sie direkt Ihren Termin bei uns! Unser Praxis-Team in Bieblach-Ost freut sich auf Ihren Besuch.'
+)
 
 // https://github.com/vueuse/head
 useHead({

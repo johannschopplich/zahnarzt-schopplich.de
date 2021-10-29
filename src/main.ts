@@ -1,4 +1,5 @@
-import './styles/index.css'
+import './styles/index.scss'
+
 import { ViteSSG } from 'vite-ssg'
 import generatedRoutes from 'virtual:generated-pages'
 import App from './App.vue'
