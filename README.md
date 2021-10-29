@@ -38,3 +38,7 @@ The generated files will be put into `dist`, ready to be served.
 ## Credits
 
 [@antfu](https://github.com/antfu) for all of his incredible work and contributions to the community, including Vitesse, which this repository is forked from.
+
+## License
+
+The code is licensed under [MIT](./LICENSE), words and images are licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
