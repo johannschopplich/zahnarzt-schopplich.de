@@ -1,4 +1,4 @@
-@import 'buldy.css';
+@use 'vendor/buldy';
 
 :root {
   --color-primary: hsl(148, 17%, 37%);
@@ -13,6 +13,14 @@
   --color-background: hsl(37, 90%, 84%);
   --color-link: var(--color-text);
   --color-link-hover: var(--color-primary);
+
+  & .box {
+    --box-accent: white;
+  }
+}
+
+[data-theme='dark'] .box {
+  --box-accent: var(--color-contrast-lowest);
 }
 
 a:not([class]),
@@ -22,29 +30,17 @@ a.text-underline {
   text-decoration-thickness: max(1px, 0.05em);
   text-underline-offset: max(2px, 0.125em);
   text-decoration-skip-ink: auto;
-}
 
-a:not([class]):hover,
-a.text-underline:hover {
-  text-decoration-color: currentColor;
+  &:hover {
+    text-decoration-color: currentColor;
+  }
 }
 
 .box {
   box-shadow: 3px 3px 0 var(--color-background), 4px 4px 0 var(--box-accent);
   background-color: var(--box-accent);
-}
 
-:root:not([data-theme]) .box,
-[data-theme='light'] .box {
-  --box-accent: white;
-}
-
-[data-theme='dark'] .box {
-  --box-accent: var(--color-contrast-lowest);
-}
-
-@media (min-width: 768px) {
-  .box {
+  @media (min-width: 768px) {
     padding: var(--space-l);
   }
 }

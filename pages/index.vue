@@ -57,50 +57,50 @@
   <NoticeCorona />
 </template>
 
-<style scoped>
+<style scoped lang="scss">
 .title-hero {
   font-family: Times, Times New Roman, serif;
   font-size: var(--text-2);
-}
 
-@media (min-width: 768px) {
-  .title-hero {
+  @media (min-width: 768px) {
     font-size: calc(var(--text-1) + 1vw);
   }
 }
 
 .title-underline {
   position: relative;
+
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 8px solid var(--color-primary);
+    transform: translateX(-50%);
+  }
 }
 
-.title-underline::after {
-  content: '';
-  position: absolute;
-  bottom: -8px;
-  left: 50%;
-  border-left: 8px solid transparent;
-  border-right: 8px solid transparent;
-  border-top: 8px solid var(--color-primary);
-  transform: translateX(-50%);
-}
+.title-opening-hours {
+  &::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: calc(-1 * var(--space-s));
+    width: var(--space-xs);
+    height: 1px;
+    background-color: currentColor;
+  }
 
-.title-opening-hours::before {
-  content: '';
-  position: absolute;
-  top: 50%;
-  left: calc(-1 * var(--space-s));
-  width: var(--space-xs);
-  height: 1px;
-  background-color: currentColor;
-}
-
-.title-opening-hours::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: calc(-1 * var(--space-s) + -2px);
-  width: var(--space-xs);
-  height: 50%;
-  background-color: var(--color-background);
+  &::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: calc(-1 * var(--space-s) + -2px);
+    width: var(--space-xs);
+    height: 50%;
+    background-color: var(--color-background);
+  }
 }
 </style>
