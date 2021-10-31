@@ -17,13 +17,19 @@
               Dr.-Friedrich-Wolf-Straße 2<br />
               07545 Gera
             </p>
-            <a href="tel:03658001160" class="button is-primary is-s">
-              <carbon-phone-filled class="mr-xxs" aria-hidden="true" />
-              03 65 / 800 11 60</a
-            >
-            <p class="text-danger text-7">
-              Bitte melden Sie sich telefonisch an!
-            </p>
+            <div class="columns is-vcentered has-gap-s">
+              <div class="column is-narrow">
+                <a href="tel:03658001160" class="button is-primary is-s">
+                  <carbon-phone-filled class="mr-xxs" aria-hidden="true" />
+                  03 65 / 800 11 60</a
+                >
+              </div>
+              <div class="column is-auto">
+                <p class="text-danger text-7 lh-heading">
+                  Bitte melden Sie sich telefonisch an!
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
