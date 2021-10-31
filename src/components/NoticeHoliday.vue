@@ -21,8 +21,8 @@
               <div class="column is-narrow">
                 <a href="tel:03658001160" class="button is-primary is-s">
                   <carbon-phone-filled class="mr-xxs" aria-hidden="true" />
-                  03 65 / 800 11 60</a
-                >
+                  03 65 / 800 11 60
+                </a>
               </div>
               <div class="column is-auto">
                 <p class="text-danger text-7 lh-heading">
