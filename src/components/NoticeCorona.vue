@@ -69,13 +69,13 @@
   </div>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
 .box {
-  border: 0.5em solid var(--color-danger);
-}
+  border: 0.5rem solid var(--color-danger);
 
-.box h2:not(:first-child),
-.box h3:not(:first-child) {
-  margin-top: 0;
+  & h2:not(:first-child),
+  & h3:not(:first-child) {
+    margin-top: 0;
+  }
 }
 </style>

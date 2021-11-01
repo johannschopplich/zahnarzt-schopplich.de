@@ -7,7 +7,7 @@
         :to="item.path"
         class="text-underline"
       >
-        {{ (item.meta!.frontmatter as any).title }}
+        {{ (item.meta?.frontmatter as any)?.title }}
       </router-link>
     </div>
   </footer>

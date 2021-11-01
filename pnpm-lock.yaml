@@ -1,8 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@iconify/json': ^1.1.421
-  '@types/fs-extra': ^9.0.13
+  '@iconify/json': ^1.1.422
   '@types/node': ^16.11.6
   '@typescript-eslint/eslint-plugin': ^5.2.0
   '@typescript-eslint/parser': ^5.2.0
@@ -15,7 +14,6 @@ specifiers:
   eslint: ^8.1.0
   eslint-config-prettier: ^8.3.0
   eslint-plugin-vue: ^8.0.3
-  fs-extra: ^10.0.0
   gray-matter: ^4.0.3
   https-localhost: ^4.7.0
   markdown-it-anchor: ^8.4.1
@@ -41,8 +39,7 @@ dependencies:
   vue-router: 4.0.12_vue@3.2.20
 
 devDependencies:
-  '@iconify/json': 1.1.421
-  '@types/fs-extra': 9.0.13
+  '@iconify/json': 1.1.422
   '@types/node': 16.11.6
   '@typescript-eslint/eslint-plugin': 5.2.0_9a56ca1c5fc1d82b3da3317a5c6f9ab1
   '@typescript-eslint/parser': 5.2.0_eslint@8.1.0+typescript@4.4.4
@@ -53,7 +50,6 @@ devDependencies:
   eslint: 8.1.0
   eslint-config-prettier: 8.3.0_eslint@8.1.0
   eslint-plugin-vue: 8.0.3_eslint@8.1.0
-  fs-extra: 10.0.0
   gray-matter: 4.0.3
   https-localhost: 4.7.0
   markdown-it-anchor: 8.4.1
@@ -151,8 +147,8 @@ packages:
     resolution: {integrity: sha512-wdppn25U8z/2yiaT6YGquE6X8sSv7hNMWSXYSSU1jGv/yd6XqjXgTDJ8KP4NgjTXfJ3GbRjeeb8RTV7a/VpM+w==}
     dev: true
 
-  /@iconify/json/1.1.421:
-    resolution: {integrity: sha512-nCxWszt2AjVsG/REoAhFue4aiJniZmjx8M2MAS/SCSHQUGoxKcFTg5NeyfDW1tQiKJ0R8AmbEb0Zum8ljybZNA==}
+  /@iconify/json/1.1.422:
+    resolution: {integrity: sha512-yxIjzblsWIRZfXK+bfBWtm1LDD7+QlBXO/K7xnqU+LiOk6rJXvh+Veks/LgDD2wAi3PYQHVzCZBqp6OGGz6K/Q==}
     dev: true
 
   /@iconify/types/1.0.10:
@@ -197,12 +193,6 @@ packages:
   /@tootallnate/once/1.1.2:
     resolution: {integrity: sha512-RbzJvlNzmRq5c3O09UipeuXno4tA1FE6ikOjxZK0tuxVv3412l64l5t1W5pj4+rJq9vpkm/kwiR07aZXnsKPxw==}
     engines: {node: '>= 6'}
-    dev: true
-
-  /@types/fs-extra/9.0.13:
-    resolution: {integrity: sha512-nEnwB++1u5lVDM2UI4c1+5R+FYaKfaAzS4OococimjVm3nQw3TuzH5UNsocrcTBbhnerblyHj4A49qXbIiZdpA==}
-    dependencies:
-      '@types/node': 16.11.6
     dev: true
 
   /@types/json-schema/7.0.9:

@@ -14,18 +14,18 @@ import { useRoute } from 'vue-router'
 const route = useRoute()
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 nav {
   display: flex;
   align-items: center;
   font-size: var(--text-7);
   text-transform: uppercase;
-}
 
-nav::after {
-  content: '';
-  height: 1px;
-  background-color: var(--color-primary);
-  width: 100%;
+  &::after {
+    content: '';
+    height: 1px;
+    background-color: var(--color-primary);
+    width: 100%;
+  }
 }
 </style>
