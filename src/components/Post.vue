@@ -27,48 +27,48 @@ const props = defineProps<{ frontmatter: any }>()
 const content = ref<HTMLElement>()
 const router = useRouter()
 
-const navigate = () => {
-  if (window.location.hash) {
-    document
-      .querySelector(decodeURIComponent(window.location.hash))
-      ?.scrollIntoView({ behavior: 'smooth' })
+if (isClient) {
+  const navigate = () => {
+    if (window.location.hash) {
+      document
+        .querySelector(decodeURIComponent(window.location.hash))
+        ?.scrollIntoView({ behavior: 'smooth' })
+    }
   }
-}
 
-const handleAnchors = (
-  event: MouseEvent & {
-    target: HTMLElement
-  }
-) => {
-  const link = event.target.closest('a')
+  const handleAnchors = (
+    event: MouseEvent & {
+      target: HTMLElement
+    }
+  ) => {
+    const link = event.target.closest('a')
 
-  if (
-    !event.defaultPrevented &&
-    link &&
-    event.button === 0 &&
-    link.target !== '_blank' &&
-    link.rel !== 'external' &&
-    !link.download &&
-    !event.metaKey &&
-    !event.ctrlKey &&
-    !event.shiftKey &&
-    !event.altKey
-  ) {
-    const url = new URL(link.href)
+    if (
+      !event.defaultPrevented &&
+      link &&
+      event.button === 0 &&
+      link.target !== '_blank' &&
+      link.rel !== 'external' &&
+      !link.download &&
+      !event.metaKey &&
+      !event.ctrlKey &&
+      !event.shiftKey &&
+      !event.altKey
+    ) {
+      const url = new URL(link.href)
+      if (url.origin !== window.location.origin) return
 
-    if (url.origin === location.origin) {
       event.preventDefault()
-      if (url.hash) {
-        window.history.replaceState({}, '', url.hash)
+      const { hash, pathname: path } = url
+      if (hash && !path) {
+        window.history.replaceState({}, '', hash)
         navigate()
       } else {
-        router.push({ path: url.pathname })
+        router.push({ path, hash })
       }
     }
   }
-}
 
-if (isClient) {
   useEventListener(window, 'hashchange', navigate)
   useEventListener(content, 'click', handleAnchors)
 
