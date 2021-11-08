@@ -1,4 +1,5 @@
 import './styles/index.scss'
+import 'uno.css'
 
 import { ViteSSG } from 'vite-ssg'
 import generatedRoutes from 'virtual:generated-pages'

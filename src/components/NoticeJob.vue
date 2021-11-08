@@ -1,7 +1,13 @@
 <template>
   <section class="container is-md box">
     <h2
-      class="headline-job-listing bg-primary text-7 text-semibold p-xxs rounded"
+      class="
+        headline-job-listing
+        bg-primary
+        font-size-7 font-semibold
+        p-1
+        rounded
+      "
     >
       Stellen<br />anzeige
     </h2>

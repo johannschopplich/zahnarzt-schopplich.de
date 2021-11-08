@@ -4,7 +4,7 @@
       :to="route.path.split('/').slice(0, -1).join('/') || '/'"
       class="button is-text"
     >
-      <carbon-arrow-left class="text-primary mr-xxs" aria-hidden="true" />Zurück
+      <carbon-arrow-left class="text-primary mr-1" aria-hidden="true" />Zurück
     </router-link>
   </nav>
 </template>

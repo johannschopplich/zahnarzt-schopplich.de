@@ -10,22 +10,22 @@
       <div class="columns">
         <div class="column">
           <div class="bordered-box">
-            <h3 class="text-6 mb-xxs">
+            <h3 class="font-size-6 mb-1">
               Zahnarztpraxis Lesser & Rudolf (vormals Dr. Kokott)
             </h3>
-            <p class="text-7 lh-heading mb-s">
+            <p class="font-size-7 lh-tight mb-3">
               Dr.-Friedrich-Wolf-Straße 2<br />
               07545 Gera
             </p>
             <div class="columns is-vcentered has-gap-s">
               <div class="column is-narrow">
                 <a href="tel:03658001160" class="button is-primary is-s">
-                  <carbon-phone-filled class="mr-xxs" aria-hidden="true" />
+                  <carbon-phone-filled class="mr-1" aria-hidden="true" />
                   03 65 / 800 11 60
                 </a>
               </div>
               <div class="column is-auto">
-                <p class="text-danger text-7 lh-heading">
+                <p class="text-danger font-size-7 lh-tight">
                   Bitte melden Sie sich telefonisch an!
                 </p>
               </div>

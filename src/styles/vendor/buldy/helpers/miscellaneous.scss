@@ -5,7 +5,7 @@
 }
 
 .rounded {
-  border-radius: var(--radius);
+  border-radius: var(--radius) !important;
 }
 
 .stretched-fullwidth {

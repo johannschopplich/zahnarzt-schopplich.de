@@ -1,37 +1,37 @@
 <template>
   <div class="section">
     <section class="container is-md text-center">
-      <h1 class="title title-hero lh-1 mb-s">
+      <h1 class="title title-hero lh-none mb-3">
         Zahnarztpraxis<br />
         <span class="title-underline">Sebastian Schopplich</span>
       </h1>
-      <div class="mb-xl">
-        <p class="mb-xs">
-          Johannes-R.-Becher-Straße 66<br class="md:d-none" />
+      <div class="mb-13">
+        <p class="mb-2">
+          Johannes-R.-Becher-Straße 66<br class="md:hidden" />
           in 07546 Gera-Bieblach
         </p>
         <a href="tel:03654204317" class="button is-primary is-outlined">
-          <carbon-phone-filled class="mr-xxs" aria-hidden="true" />
+          <carbon-phone-filled class="mr-1" aria-hidden="true" />
           0365 / 420 43 17
         </a>
       </div>
 
       <div class="columns is-centered">
         <div
-          class="column is-narrow text-left mr-s pr-s"
+          class="column is-narrow text-left mr-3 pr-3"
           style="border-right: 1px solid"
         >
-          <div class="title text-4 unselectable mb-xxs">&nbsp;</div>
+          <div class="title font-size-4 unselectable mb-1">&nbsp;</div>
           <p class="text-primary">
-            Mo<span class="d-none md:d-inline">ntag</span><br />
-            Di<span class="d-none md:d-inline">enstag</span><br />
-            Mi<span class="d-none md:d-inline">ttwoch</span><br />
-            Do<span class="d-none md:d-inline">nnerstag</span><br />
-            Fr<span class="d-none md:d-inline">eitag</span>
+            Mo<span class="hidden md:inline">ntag</span><br />
+            Di<span class="hidden md:inline">enstag</span><br />
+            Mi<span class="hidden md:inline">ttwoch</span><br />
+            Do<span class="hidden md:inline">nnerstag</span><br />
+            Fr<span class="hidden md:inline">eitag</span>
           </p>
         </div>
         <div class="column is-narrow text-left">
-          <h2 class="position-relative title title-opening-hours text-4 mb-xxs">
+          <h2 class="relative title title-opening-hours font-size-4 mb-1">
             Öffnungszeiten
           </h2>
           <p>
@@ -46,11 +46,11 @@
     </section>
   </div>
 
-  <div class="pb-xl">
+  <div class="pb-13">
     <NoticeHoliday />
   </div>
 
-  <div class="pb-xl">
+  <div class="pb-13">
     <NoticeJob />
   </div>
 

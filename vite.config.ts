@@ -8,6 +8,9 @@ import IconsResolver from 'unplugin-icons/resolver'
 import Components from 'unplugin-vue-components/vite'
 import Markdown from 'vite-plugin-md'
 import MarkdownItAnchor from 'markdown-it-anchor'
+import Unocss from 'unocss/vite'
+import { createConfig } from './unocss.config'
+import presetIcons from '@unocss/preset-icons'
 import matter from 'gray-matter'
 import slugify from 'slugify'
 
@@ -70,13 +73,10 @@ export default defineConfig({
         })
       },
     }),
-  ],
 
-  server: {
-    fs: {
-      strict: true,
-    },
-  },
+    // https://github.com/antfu/unocss
+    Unocss(createConfig()),
+  ],
 
   // https://github.com/antfu/vite-ssg
   ssgOptions: {

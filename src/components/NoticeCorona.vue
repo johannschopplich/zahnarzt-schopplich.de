@@ -18,7 +18,7 @@
         erst folgende Fragen:
       </h2>
       <div class="columns text-left">
-        <div class="column is-narrow pr-xs" aria-hidden="true">
+        <div class="column is-narrow pr-2" aria-hidden="true">
           <carbon-help />
         </div>
         <div class="column">
@@ -31,7 +31,7 @@
         </div>
       </div>
       <div class="columns text-left">
-        <div class="column is-narrow pr-xs" aria-hidden="true">
+        <div class="column is-narrow pr-2" aria-hidden="true">
           <carbon-help />
         </div>
         <div class="column">
@@ -42,7 +42,7 @@
         </div>
       </div>
 
-      <h3 class="mb-m">
+      <h3 class="mb-5">
         Haben Sie eine Frage mit „Ja“ beantwortet? — Rufen Sie bitte unsere
         Praxis per Telefon an:
       </h3>
@@ -50,7 +50,7 @@
         href="tel:03654204317"
         class="button is-primary is-l is-outlined text-center"
       >
-        <carbon-phone-filled class="mr-xxs" aria-hidden="true" />
+        <carbon-phone-filled class="mr-1" aria-hidden="true" />
         0365 / 420 43 17
       </a>
 
