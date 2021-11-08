@@ -2,10 +2,16 @@
   <section class="container is-md box">
     <h2
       class="
+        absolute
+        -top-7
+        md:-top-4
+        -left-4
         headline-job-listing
         bg-primary
+        text-white
         font-size-7 font-semibold
-        p-1
+        lh-none
+        p-2
         rounded
       "
     >
@@ -26,12 +32,6 @@
 
 <style scoped>
 .headline-job-listing {
-  position: absolute;
-  top: -1rem;
-  left: -0.5rem;
-  color: white;
-  font-family: var(--font-family-system);
-  line-height: 1;
   text-transform: uppercase;
   transform: rotate(-6deg);
   z-index: 10;

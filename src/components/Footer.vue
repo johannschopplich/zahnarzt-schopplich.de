@@ -1,6 +1,6 @@
 <template>
   <footer class="container is-md is-fullwidth box mt-13">
-    <div class="text-center h-stacked">
+    <div class="text-center space-x-5">
       <router-link
         v-for="(item, index) in links"
         :key="index"

@@ -13,14 +13,6 @@
   --color-background: hsl(37, 90%, 84%);
   --color-link: var(--color-text);
   --color-link-hover: var(--color-primary);
-
-  & .box {
-    --box-accent: white;
-  }
-}
-
-[data-theme='dark'] .box {
-  --box-accent: var(--color-contrast-lowest);
 }
 
 a:not([class]),
@@ -39,6 +31,15 @@ a.text-underline {
 .box {
   box-shadow: 3px 3px 0 var(--color-background), 4px 4px 0 var(--box-accent);
   background-color: var(--box-accent);
+
+  :root:not([data-theme]) &,
+  [data-theme='light'] & {
+    --box-accent: white;
+  }
+
+  [data-theme='dark'] & {
+    --box-accent: var(--color-contrast-lowest);
+  }
 
   @media (min-width: 768px) {
     padding: var(--space-l);
