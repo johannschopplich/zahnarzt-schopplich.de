@@ -22,7 +22,6 @@ export function createConfig({ dev = true } = {}) {
         heading: 'var(--font-family-heading)',
       },
       lineHeight: {
-        none: '1',
         normal: 'var(--line-height-normal)',
         heading: 'var(--line-height-heading)',
       },
