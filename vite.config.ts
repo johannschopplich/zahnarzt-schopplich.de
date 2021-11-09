@@ -10,7 +10,6 @@ import Markdown from 'vite-plugin-md'
 import MarkdownItAnchor from 'markdown-it-anchor'
 import Unocss from 'unocss/vite'
 import { createConfig } from './unocss.config'
-import presetIcons from '@unocss/preset-icons'
 import matter from 'gray-matter'
 import slugify from 'slugify'
 
