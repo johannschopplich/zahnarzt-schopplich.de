@@ -9,7 +9,7 @@ import Components from 'unplugin-vue-components/vite'
 import Markdown from 'vite-plugin-md'
 import MarkdownItAnchor from 'markdown-it-anchor'
 import Unocss from 'unocss/vite'
-import { createConfig } from './unocss.config'
+import unoUserConfig from './unocss.config'
 import matter from 'gray-matter'
 import slugify from 'slugify'
 
@@ -74,7 +74,7 @@ export default defineConfig({
     }),
 
     // https://github.com/antfu/unocss
-    Unocss(createConfig()),
+    Unocss(unoUserConfig),
   ],
 
   // https://github.com/antfu/vite-ssg
