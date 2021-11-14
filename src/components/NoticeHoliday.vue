@@ -9,7 +9,7 @@
 
       <div class="columns">
         <div class="column">
-          <div class="bordered-box">
+          <div class="border border-contrast-lowest p-5 rounded-sm">
             <h3 class="font-size-6 mb-1">
               Zahnarztpraxis Lesser & Rudolf (vormals Dr. Kokott)
             </h3>
@@ -36,11 +36,3 @@
     </div>
   </section>
 </template>
-
-<style>
-.bordered-box {
-  border: 1px solid var(--color-contrast-lowest);
-  padding: var(--component-spacer);
-  border-radius: var(--radius);
-}
-</style>

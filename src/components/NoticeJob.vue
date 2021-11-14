@@ -4,7 +4,6 @@
       class="
         absolute
         -top-7
-        md:-top-4
         -left-4
         headline-job-listing
         bg-primary
@@ -12,7 +11,7 @@
         font-size-7 font-semibold
         lh-none
         p-2
-        rounded
+        rounded-sm
       "
     >
       Stellen<br />anzeige

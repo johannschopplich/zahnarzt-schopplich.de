@@ -1,11 +1,17 @@
-@use 'vendor/buldy';
+@use '@unocss/reset/tailwind';
+
+@use 'duecss/base/all';
+@use 'duecss/components/container';
+@use 'duecss/components/columns';
+@use 'duecss/components/content';
+@use 'duecss/components/button';
 
 :root {
   --color-primary: hsl(148, 17%, 37%);
   --color-primary-hover: hsl(148, 17%, 45%);
   --color-primary-active: hsl(148, 17%, 53%);
   --color-primary-lucent: hsla(148, 17%, 37%, 0.35);
-  --radius: 2px;
+  --due-radius: 0.125rem;
 }
 
 :root:not([data-theme]),
@@ -29,8 +35,11 @@ a.text-underline {
 }
 
 .box {
-  box-shadow: 3px 3px 0 var(--color-background), 4px 4px 0 var(--box-accent);
+  display: block;
+  border-radius: var(--due-radius);
   background-color: var(--box-accent);
+  box-shadow: 3px 3px 0 var(--color-background), 4px 4px 0 var(--box-accent);
+  padding: var(--space-m);
 
   :root:not([data-theme]) &,
   [data-theme='light'] & {
