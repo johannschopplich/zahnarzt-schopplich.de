@@ -2,7 +2,7 @@
   <div class="section">
     <div class="container is-md text-center">
       <h1 class="title font-size-1 lh-none">
-        <span class="title-underline">{{ props.frontmatter.title }}</span>
+        <span class="underlined">{{ props.frontmatter.title }}</span>
       </h1>
     </div>
   </div>

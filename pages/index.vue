@@ -3,7 +3,7 @@
     <section class="container is-md text-center">
       <h1 class="title title-hero lh-none mb-3">
         Zahnarztpraxis<br />
-        <span class="title-underline">Sebastian Schopplich</span>
+        <span class="underlined">Sebastian Schopplich</span>
       </h1>
       <div class="mb-13">
         <p class="mb-2">
@@ -67,7 +67,7 @@
   }
 }
 
-.title-underline {
+.underlined {
   position: relative;
 
   &::after {

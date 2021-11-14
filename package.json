@@ -14,7 +14,7 @@
     "@unocss/reset": "^0.9.3",
     "@vueuse/core": "^6.9.0",
     "@vueuse/head": "^0.6.0",
-    "duecss": "^0.2.3",
+    "duecss": "^0.2.5",
     "vue": "^3.2.21",
     "vue-router": "^4.0.12"
   },
