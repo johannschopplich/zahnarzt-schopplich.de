@@ -16,9 +16,9 @@
         </a>
       </div>
 
-      <div class="columns is-centered">
+      <div class="columns items-center justify-center">
         <div
-          class="column is-narrow text-left mr-3 pr-3"
+          class="column-narrow text-left mr-3 pr-3"
           style="border-right: 1px solid"
         >
           <div class="title font-size-4 unselectable mb-1">&nbsp;</div>
@@ -30,7 +30,7 @@
             Fr<span class="hidden md:inline">eitag</span>
           </p>
         </div>
-        <div class="column is-narrow text-left">
+        <div class="column-narrow text-left">
           <h2 class="relative title title-opening-hours font-size-4 mb-1">
             Öffnungszeiten
           </h2>
