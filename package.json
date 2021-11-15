@@ -11,9 +11,9 @@
     "format": "prettier --write \"src/**/*.{css,html,json,md,scss,ts,vue,yml}\""
   },
   "dependencies": {
-    "@vueuse/core": "^6.9.0",
+    "@vueuse/core": "^6.9.1",
     "@vueuse/head": "^0.6.0",
-    "duecss": "^0.4.3",
+    "duecss": "^0.5.8",
     "vue": "^3.2.22",
     "vue-router": "^4.0.12"
   },

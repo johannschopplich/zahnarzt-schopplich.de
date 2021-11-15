@@ -1,4 +1,5 @@
-import './styles/main.scss'
+import './styles/base.scss'
+import './styles/components.scss'
 import 'uno.css'
 
 import { ViteSSG } from 'vite-ssg'
