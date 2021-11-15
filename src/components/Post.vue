@@ -1,13 +1,13 @@
 <template>
   <div class="section">
-    <div class="container is-md text-center">
+    <div class="container-md text-center">
       <h1 class="title font-size-1 lh-none">
         <span class="underlined">{{ props.frontmatter.title }}</span>
       </h1>
     </div>
   </div>
 
-  <div class="container is-md is-fullwidth">
+  <div class="container-md-full">
     <Navigation class="mb-2 mr-2" />
 
     <section ref="content" class="box">

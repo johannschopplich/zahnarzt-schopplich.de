@@ -1,5 +1,5 @@
 <template>
-  <div class="container is-md is-fullwidth box">
+  <div class="container-md-full box">
     <div class="content text-center">
       <h2>
         Sehr geehrte Patienten,<br />wir sind trotz der Corona-Pandemie<br />weiterhin

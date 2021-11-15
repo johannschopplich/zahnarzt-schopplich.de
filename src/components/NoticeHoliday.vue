@@ -1,5 +1,5 @@
 <template>
-  <section class="container is-md box">
+  <section class="container-md box">
     <div class="content">
       <h2 class="text-center text-primary">Urlaub vom 8.–22. November 2021</h2>
       <p>

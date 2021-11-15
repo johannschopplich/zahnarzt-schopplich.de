@@ -13,18 +13,18 @@
   "dependencies": {
     "@vueuse/core": "^6.9.0",
     "@vueuse/head": "^0.6.0",
-    "duecss": "^0.3.0",
-    "vue": "^3.2.21",
+    "duecss": "^0.4.3",
+    "vue": "^3.2.22",
     "vue-router": "^4.0.12"
   },
   "devDependencies": {
-    "@iconify/json": "^1.1.427",
+    "@iconify/json": "^1.1.428",
     "@types/node": "^16.11.7",
     "@typescript-eslint/eslint-plugin": "^5.3.1",
     "@typescript-eslint/parser": "^5.3.1",
     "@unocss/preset-icons": "^0.9.3",
     "@vitejs/plugin-vue": "^1.9.4",
-    "@vue/server-renderer": "^3.2.21",
+    "@vue/server-renderer": "^3.2.22",
     "critters": "^0.0.14",
     "eslint": "^8.2.0",
     "eslint-config-prettier": "^8.3.0",
@@ -32,7 +32,7 @@
     "gray-matter": "^4.0.3",
     "https-localhost": "^4.7.0",
     "markdown-it-anchor": "^8.4.1",
-    "pnpm": "^6.21.1",
+    "pnpm": "^6.22.1",
     "prettier": "^2.4.1",
     "sass": "^1.43.4",
     "slugify": "^1.6.2",
@@ -44,6 +44,6 @@
     "vite-plugin-md": "^0.11.4",
     "vite-plugin-pages": "^0.18.2",
     "vite-ssg": "^0.15.6",
-    "vue-tsc": "^0.29.4"
+    "vue-tsc": "^0.29.5"
   }
 }

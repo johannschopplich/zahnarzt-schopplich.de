@@ -1,6 +1,6 @@
 <template>
   <div class="section">
-    <section class="container is-md text-center">
+    <section class="container-md text-center">
       <h1 class="title title-hero lh-none mb-3">
         Zahnarztpraxis<br />
         <span class="underlined">Sebastian Schopplich</span>

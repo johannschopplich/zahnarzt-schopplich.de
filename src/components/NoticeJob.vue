@@ -1,5 +1,5 @@
 <template>
-  <section class="container is-md box">
+  <section class="container-md box">
     <h2
       class="
         absolute
