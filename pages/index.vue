@@ -10,7 +10,7 @@
           Johannes-R.-Becher-Straße 66<br class="md:hidden" />
           in 07546 Gera-Bieblach
         </p>
-        <a href="tel:03654204317" class="button is-primary is-outlined">
+        <a href="tel:03654204317" class="button-accent-outlined">
           <carbon-phone-filled class="mr-1" aria-hidden="true" />
           0365 / 420 43 17
         </a>

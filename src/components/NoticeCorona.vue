@@ -1,5 +1,5 @@
 <template>
-  <div class="container-md-full box">
+  <div class="container-md-full box border-[0.5rem] border-rose-600">
     <div class="content text-center">
       <h2>
         Sehr geehrte Patienten,<br />wir sind trotz der Corona-Pandemie<br />weiterhin
@@ -7,13 +7,13 @@
       </h2>
       <p>
         Bitte beachten Sie unsere
-        <strong class="text-danger">
+        <strong class="text-rose-600">
           Schutzmaßnahmen vor der Ausbreitung des Coronavirus</strong
         >. Die Gefahr einer Ansteckung mit dem neuartigen Coronavirus ist zur
         Zeit hoch.
       </p>
 
-      <h2 class="text-danger">
+      <h2 class="text-rose-600">
         Bitte betreten Sie die Praxis nicht sofort, sondern beantworten Sie sich
         erst folgende Fragen:
       </h2>
@@ -46,10 +46,7 @@
         Haben Sie eine Frage mit „Ja“ beantwortet? — Rufen Sie bitte unsere
         Praxis per Telefon an:
       </h3>
-      <a
-        href="tel:03654204317"
-        class="button is-primary is-l is-outlined text-center"
-      >
+      <a href="tel:03654204317" class="button-primary-outlined text-center">
         <carbon-phone-filled class="mr-1" aria-hidden="true" />
         0365 / 420 43 17
       </a>
@@ -58,7 +55,7 @@
         Gern besprechen wir dann gemeinsam das weitere Vorgehen und kontaktieren
         Ihren betreuenden Hausarzt.
       </p>
-      <h3 class="text-danger">
+      <h3 class="text-rose-600">
         Haben Sie alle Fragen mit „Nein“ beantwortet, steht Ihrer Behandlung
         nichts im Wege. Sie können Ihre geplanten Termine unverändert
         wahrnehmen.
@@ -70,9 +67,7 @@
 </template>
 
 <style scoped lang="scss">
-.box {
-  border: 0.5rem solid var(--color-danger);
-
+.content {
   & h2:not(:first-child),
   & h3:not(:first-child) {
     margin-top: 0;

@@ -1,11 +1,8 @@
 @use 'duecss/base/all';
 
 :root {
-  --color-primary: hsl(148, 17%, 37%);
-  --color-primary-hover: hsl(148, 17%, 45%);
-  --color-primary-active: hsl(148, 17%, 53%);
-  --color-primary-lucent: hsla(148, 17%, 37%, 0.35);
-  --due-radius: 0.125rem;
+  --color-primary: #4e6e5d;
+  --due-radius: 2px;
 }
 
 :root:not([data-theme]),

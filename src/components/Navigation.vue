@@ -2,7 +2,7 @@
   <nav v-if="route.path !== '/'" class="navigation">
     <router-link
       :to="route.path.split('/').slice(0, -1).join('/') || '/'"
-      class="button is-text"
+      class="button-text"
     >
       <carbon-arrow-left class="text-primary mr-1" aria-hidden="true" />Zurück
     </router-link>

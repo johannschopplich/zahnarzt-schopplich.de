@@ -19,13 +19,13 @@
             </p>
             <div class="columns items-center gap-3">
               <div class="column-narrow">
-                <a href="tel:03658001160" class="button is-primary is-s">
+                <a href="tel:03658001160" class="button-primary">
                   <carbon-phone-filled class="mr-1" aria-hidden="true" />
                   03 65 / 800 11 60
                 </a>
               </div>
               <div class="column-auto">
-                <p class="text-danger font-size-7 lh-heading">
+                <p class="text-rose-600 font-size-7 lh-heading">
                   Bitte melden Sie sich telefonisch an!
                 </p>
               </div>
