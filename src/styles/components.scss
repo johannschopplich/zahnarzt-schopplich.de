@@ -1,26 +1,24 @@
 @use 'duecss/components/content';
 
 .box {
-  display: block;
-  border-radius: var(--due-radius);
-  background-color: var(--box-accent);
-  box-shadow: 3px 3px 0 var(--color-background), 4px 4px 0 var(--box-accent);
-  padding: var(--space-m);
+  --box-background: white;
 
-  :root:not([data-theme]) &,
-  [data-theme='light'] & {
-    --box-accent: white;
-  }
+  display: block;
+  border-radius: var(--du-radius);
+  background-color: var(--box-background);
+  box-shadow: 3px 3px 0 var(--du-color-background),
+    4px 4px 0 var(--box-background);
+  padding: var(--du-space-m);
 
   [data-theme='dark'] & {
-    --box-accent: var(--color-contrast-lowest);
+    --box-background: var(--du-color-contrast-lowest);
   }
 
   @media (min-width: 768px) {
-    padding: var(--space-l);
+    padding: var(--du-space-l);
   }
 }
 
 .underlined {
-  box-shadow: inset 0 -0.175em var(--color-primary);
+  box-shadow: inset 0 -0.175em var(--du-color-primary);
 }

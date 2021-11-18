@@ -18,13 +18,13 @@ const route = useRoute()
 nav {
   display: flex;
   align-items: center;
-  font-size: var(--text-7);
+  font-size: var(--du-text-7);
   text-transform: uppercase;
 
   &::after {
     content: '';
     height: 1px;
-    background-color: var(--color-primary);
+    background-color: var(--du-color-primary);
     width: 100%;
   }
 }

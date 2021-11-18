@@ -1,21 +1,20 @@
 @use 'duecss/base/all';
 
 :root {
-  --color-primary: #4e6e5d;
-  --due-radius: 2px;
+  --du-radius: 2px;
 }
 
 :root:not([data-theme]),
 [data-theme='light'] {
-  --color-background: hsl(37, 90%, 84%);
-  --color-link: var(--color-text);
-  --color-link-hover: var(--color-primary);
+  --du-color-background: hsl(37, 90%, 84%);
+  --du-color-link: var(--du-color-text);
+  --du-color-link-hover: var(--du-color-primary);
 }
 
 a:not([class]),
 a.text-underline {
   text-decoration-line: underline;
-  text-decoration-color: var(--color-primary);
+  text-decoration-color: var(--du-color-primary);
   text-decoration-thickness: max(1px, 0.05em);
   text-underline-offset: max(2px, 0.125em);
   text-decoration-skip-ink: auto;

@@ -8,8 +8,9 @@
         headline-job-listing
         bg-primary
         text-white
-        font-size-7 font-semibold
-        lh-none
+        due-text-7
+        font-semibold
+        leading-none
         p-2
         rounded-sm
       "

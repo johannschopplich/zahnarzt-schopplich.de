@@ -1,16 +1,16 @@
 <template>
-  <div class="section">
+  <div class="due-py-xl">
     <section class="container-md text-center">
-      <h1 class="title title-hero lh-none mb-3">
+      <h1 class="title title-hero leading-none due-mb-s">
         Zahnarztpraxis<br />
         <span class="underlined">Sebastian Schopplich</span>
       </h1>
-      <div class="mb-13">
+      <div class="due-mb-xl">
         <p class="mb-2">
           Johannes-R.-Becher-Straße 66<br class="md:hidden" />
           in 07546 Gera-Bieblach
         </p>
-        <a href="tel:03654204317" class="button-accent-outlined">
+        <a href="tel:03654204317" class="button-primary-outlined">
           <carbon-phone-filled class="mr-1" aria-hidden="true" />
           0365 / 420 43 17
         </a>
@@ -21,7 +21,7 @@
           class="column-narrow text-left mr-3 pr-3"
           style="border-right: 1px solid"
         >
-          <div class="title font-size-4 unselectable mb-1">&nbsp;</div>
+          <div class="title due-text-4 unselectable mb-1">&nbsp;</div>
           <p class="text-primary">
             Mo<span class="hidden md:inline">ntag</span><br />
             Di<span class="hidden md:inline">enstag</span><br />
@@ -31,7 +31,7 @@
           </p>
         </div>
         <div class="column-narrow text-left">
-          <h2 class="relative title title-opening-hours font-size-4 mb-1">
+          <h2 class="relative title title-opening-hours due-text-4 mb-1">
             Öffnungszeiten
           </h2>
           <p>
@@ -46,11 +46,11 @@
     </section>
   </div>
 
-  <div class="pb-13">
+  <div class="due-pb-xl">
     <NoticeHoliday />
   </div>
 
-  <div class="pb-13">
+  <div class="due-pb-xl">
     <NoticeJob />
   </div>
 
@@ -60,10 +60,10 @@
 <style scoped lang="scss">
 .title-hero {
   font-family: Times, Times New Roman, serif;
-  font-size: var(--text-2);
+  font-size: var(--du-text-2);
 
   @media (min-width: 768px) {
-    font-size: calc(var(--text-1) + 1vw);
+    font-size: calc(var(--du-text-1) + 1vw);
   }
 }
 
@@ -77,7 +77,7 @@
     left: 50%;
     border-left: 8px solid transparent;
     border-right: 8px solid transparent;
-    border-top: 8px solid var(--color-primary);
+    border-top: 8px solid var(--du-color-primary);
     transform: translateX(-50%);
   }
 }
@@ -87,8 +87,8 @@
     content: '';
     position: absolute;
     top: 50%;
-    left: calc(-1 * var(--space-s));
-    width: var(--space-xs);
+    left: calc(-1 * var(--du-space-s));
+    width: var(--du-space-xs);
     height: 1px;
     background-color: currentColor;
   }
@@ -97,10 +97,10 @@
     content: '';
     position: absolute;
     top: 0;
-    left: calc(-1 * var(--space-s) + -2px);
-    width: var(--space-xs);
+    left: calc(-1 * var(--du-space-s) + -2px);
+    width: var(--du-space-xs);
     height: 50%;
-    background-color: var(--color-background);
+    background-color: var(--du-color-background);
   }
 }
 </style>

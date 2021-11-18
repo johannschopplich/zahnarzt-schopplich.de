@@ -42,7 +42,7 @@
         </div>
       </div>
 
-      <h3 class="mb-5">
+      <h3 class="due-mb-m">
         Haben Sie eine Frage mit „Ja“ beantwortet? — Rufen Sie bitte unsere
         Praxis per Telefon an:
       </h3>

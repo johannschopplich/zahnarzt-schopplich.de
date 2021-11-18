@@ -1,7 +1,7 @@
 <template>
-  <div class="section">
+  <div class="due-py-xl">
     <div class="container-md text-center">
-      <h1 class="title font-size-1 lh-none">
+      <h1 class="title due-text-1 leading-none">
         <span class="underlined">{{ props.frontmatter.title }}</span>
       </h1>
     </div>
