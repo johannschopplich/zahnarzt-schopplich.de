@@ -1,5 +1,5 @@
 <template>
-  <section class="container-md box">
+  <section class="due-container-md box">
     <div class="content">
       <h2 class="text-center text-primary">Urlaub vom 8.–22. November 2021</h2>
       <p>
@@ -19,7 +19,7 @@
             </p>
             <div class="columns items-center gap-3">
               <div class="column-narrow">
-                <a href="tel:03658001160" class="button-primary">
+                <a href="tel:03658001160" class="due-button-primary">
                   <carbon-phone-filled class="mr-1" aria-hidden="true" />
                   03 65 / 800 11 60
                 </a>

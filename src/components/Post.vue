@@ -1,13 +1,13 @@
 <template>
   <div class="due-py-xl">
-    <div class="container-md text-center">
-      <h1 class="title due-text-1 leading-none">
+    <div class="due-container-md text-center">
+      <h1 class="due-title due-text-1 leading-none">
         <span class="underlined">{{ props.frontmatter.title }}</span>
       </h1>
     </div>
   </div>
 
-  <div class="container-md-full">
+  <div class="due-container-md-full">
     <Navigation class="mb-2 mr-2" />
 
     <section ref="content" class="box">

@@ -1,7 +1,7 @@
 <template>
   <div class="due-py-xl">
-    <section class="container-md text-center">
-      <h1 class="title title-hero leading-none due-mb-s">
+    <section class="due-container-md text-center">
+      <h1 class="due-title title-hero leading-none due-mb-s">
         Zahnarztpraxis<br />
         <span class="underlined">Sebastian Schopplich</span>
       </h1>
@@ -10,7 +10,7 @@
           Johannes-R.-Becher-Straße 66<br class="md:hidden" />
           in 07546 Gera-Bieblach
         </p>
-        <a href="tel:03654204317" class="button-primary-outlined">
+        <a href="tel:03654204317" class="due-button-primary-outlined">
           <carbon-phone-filled class="mr-1" aria-hidden="true" />
           0365 / 420 43 17
         </a>
@@ -21,7 +21,7 @@
           class="column-narrow text-left mr-3 pr-3"
           style="border-right: 1px solid"
         >
-          <div class="title due-text-4 unselectable mb-1">&nbsp;</div>
+          <div class="due-title due-text-4 unselectable mb-1">&nbsp;</div>
           <p class="text-primary">
             Mo<span class="hidden md:inline">ntag</span><br />
             Di<span class="hidden md:inline">enstag</span><br />
@@ -31,7 +31,7 @@
           </p>
         </div>
         <div class="column-narrow text-left">
-          <h2 class="relative title title-opening-hours due-text-4 mb-1">
+          <h2 class="relative due-title title-opening-hours due-text-4 mb-1">
             Öffnungszeiten
           </h2>
           <p>

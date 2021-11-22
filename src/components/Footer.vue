@@ -1,5 +1,5 @@
 <template>
-  <footer class="container-md-full box due-mt-xl">
+  <footer class="due-container-md-full box due-mt-xl">
     <div class="text-center space-x-5">
       <router-link
         v-for="(item, index) in links"

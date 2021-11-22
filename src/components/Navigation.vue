@@ -1,8 +1,11 @@
 <template>
-  <nav v-if="route.path !== '/'" class="navigation">
+  <nav
+    v-if="route.path !== '/'"
+    class="flex items-center due-font-7 text-uppercase"
+  >
     <router-link
       :to="route.path.split('/').slice(0, -1).join('/') || '/'"
-      class="button-text"
+      class="due-button-text"
     >
       <carbon-arrow-left class="text-primary mr-1" aria-hidden="true" />Zurück
     </router-link>
@@ -14,18 +17,11 @@ import { useRoute } from 'vue-router'
 const route = useRoute()
 </script>
 
-<style scoped lang="scss">
-nav {
-  display: flex;
-  align-items: center;
-  font-size: var(--du-text-7);
-  text-transform: uppercase;
-
-  &::after {
-    content: '';
-    height: 1px;
-    background-color: var(--du-color-primary);
-    width: 100%;
-  }
+<style scoped>
+nav::after {
+  content: '';
+  height: 1px;
+  background-color: var(--du-color-primary);
+  width: 100%;
 }
 </style>
