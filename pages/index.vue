@@ -22,31 +22,36 @@
           style="border-right: 1px solid"
         >
           <div class="due-title due-text-4 unselectable mb-1">&nbsp;</div>
-          <p class="text-primary">
-            Mo<span class="hidden md:inline">ntag</span><br />
-            Di<span class="hidden md:inline">enstag</span><br />
-            Mi<span class="hidden md:inline">ttwoch</span><br />
-            Do<span class="hidden md:inline">nnerstag</span><br />
-            Fr<span class="hidden md:inline">eitag</span>
+          <p
+            v-for="day in [
+              'Montag',
+              'Dienstag',
+              'Mittwoch',
+              'Donnerstag',
+              'Freitag',
+            ]"
+            :key="day"
+            class="text-primary"
+          >
+            {{ day.slice(0, 2)
+            }}<span class="hidden md:inline">{{ day.slice(2) }}</span>
           </p>
         </div>
         <div class="column-narrow text-left">
           <h2 class="relative due-title title-opening-hours due-text-4 mb-1">
             Öffnungszeiten
           </h2>
-          <p>
-            8.00-13.00 Uhr und 13.30-16.00 Uhr<br />
-            8.00-13.30 Uhr und 14.15-17.30 Uhr<br />
-            8.00-13.00 Uhr<br />
-            8.30-13.30 Uhr und 14.15-18.00 Uhr<br />
-            8.00-12.00 Uhr
-          </p>
+          <p>8.00-13.00 Uhr und 13.30-16.00 Uhr</p>
+          <p>8.00-13.30 Uhr und 14.15-17.30 Uhr</p>
+          <p>8.00-13.00 Uhr</p>
+          <p>8.30-13.30 Uhr und 14.15-18.00 Uhr</p>
+          <p>8.00-12.00 Uhr</p>
         </div>
       </div>
     </section>
   </div>
 
-  <div class="due-pb-xl">
+  <div v-if="[9, 10].includes(new Date().getMonth())" class="due-pb-xl">
     <NoticeHoliday />
   </div>
 
