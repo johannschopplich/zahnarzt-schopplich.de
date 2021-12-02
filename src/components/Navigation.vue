@@ -1,7 +1,7 @@
 <template>
   <nav
     v-if="route.path !== '/'"
-    class="flex items-center due-font-7 text-uppercase"
+    class="flex items-center due-font-7 text-uppercase after:content-empty after:h-1px after:bg-primary after:w-full"
   >
     <router-link
       :to="route.path.split('/').slice(0, -1).join('/') || '/'"
@@ -16,12 +16,3 @@
 import { useRoute } from 'vue-router'
 const route = useRoute()
 </script>
-
-<style scoped>
-nav::after {
-  content: '';
-  height: 1px;
-  background-color: var(--du-color-primary);
-  width: 100%;
-}
-</style>

@@ -1,19 +1,7 @@
 <template>
   <section class="due-container-md box">
     <h2
-      class="
-        absolute
-        -top-7
-        -left-4
-        headline-job-listing
-        bg-primary
-        text-white
-        due-text-7
-        font-semibold
-        leading-none
-        p-2
-        rounded-sm
-      "
+      class="absolute -top-7 -left-4 bg-primary text-white due-text-7 font-semibold leading-none p-2 rounded-sm case-upper transform -rotate-6 z-10"
     >
       Stellen<br />anzeige
     </h2>
@@ -29,11 +17,3 @@
     </div>
   </section>
 </template>
-
-<style scoped>
-.headline-job-listing {
-  text-transform: uppercase;
-  transform: rotate(-6deg);
-  z-index: 10;
-}
-</style>
