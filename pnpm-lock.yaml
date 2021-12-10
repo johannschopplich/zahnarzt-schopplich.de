@@ -8,7 +8,7 @@ specifiers:
   '@unocss/preset-icons': ^0.16.0
   '@vitejs/plugin-vue': ^1.10.2
   '@vueuse/core': ^7.2.2
-  '@vueuse/head': ^0.7.2
+  '@vueuse/head': ^0.7.3
   critters: ^0.0.15
   duecss: ^0.16.1
   eslint: ^8.4.1
@@ -35,7 +35,7 @@ specifiers:
 
 dependencies:
   '@vueuse/core': 7.2.2_vue@3.2.24
-  '@vueuse/head': 0.7.2_vue@3.2.24
+  '@vueuse/head': 0.7.3_vue@3.2.24
   duecss: 0.16.1
   vue: 3.2.24
   vue-router: 4.0.12_vue@3.2.24
@@ -65,7 +65,7 @@ devDependencies:
   vite: 2.7.1_sass@1.44.0
   vite-plugin-md: 0.11.4_vite@2.7.1
   vite-plugin-pages: 0.19.0-beta.8_vite@2.7.1
-  vite-ssg: 0.16.2_21d9a5f109dd5a74678e2a7a9c73d643
+  vite-ssg: 0.16.2_e5bdab29872aa83b880b69134d98168e
   vue-tsc: 0.29.8_typescript@4.5.3
 
 packages:
@@ -586,8 +586,8 @@ packages:
       vue-demi: 0.12.1_vue@3.2.24
     dev: false
 
-  /@vueuse/head/0.7.2_vue@3.2.24:
-    resolution: {integrity: sha512-97RxYbIYwB9yFuRbdDbktsjKS0k12wYNksYV/UtYLOFNx+GAflK2kQ63b+sx09MJllEozD3GLeXV7O8rzMskeQ==}
+  /@vueuse/head/0.7.3_vue@3.2.24:
+    resolution: {integrity: sha512-4IRwZlpO9NKiHEHGvsXEGfy8ZD53B7neAMLsnfzu/TocpO7y9pn55mHWpodWAeUFyf6kNgKxFq5yBGTxLni3aA==}
     peerDependencies:
       vue: '>=3'
     dependencies:
@@ -3594,7 +3594,7 @@ packages:
       - supports-color
     dev: true
 
-  /vite-ssg/0.16.2_21d9a5f109dd5a74678e2a7a9c73d643:
+  /vite-ssg/0.16.2_e5bdab29872aa83b880b69134d98168e:
     resolution: {integrity: sha512-paoBbRdaKBznYf+aTqN2Ltf5dQiBgUKwM2uvwjmPsuPQbVcznzceb13cpoG4WXxlaW2EvPns30NRIM+U6RZU3w==}
     engines: {node: '>=14.0.0'}
     hasBin: true
@@ -3608,7 +3608,7 @@ packages:
       critters:
         optional: true
     dependencies:
-      '@vueuse/head': 0.7.2_vue@3.2.24
+      '@vueuse/head': 0.7.3_vue@3.2.24
       chalk: 4.1.2
       critters: 0.0.15
       fs-extra: 10.0.0
