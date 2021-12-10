@@ -8,7 +8,7 @@
     "typecheck": "vue-tsc --noEmit",
     "lint": "eslint \"pages/**/*.vue\" \"src/**/*.{ts,vue}\"",
     "lint:fix": "npm run lint -- --fix",
-    "format": "prettier --write \"src/**/*.{css,html,json,md,scss,ts,vue,yml}\""
+    "format": "prettier \"src/**/*.{css,html,json,md,scss,ts,vue,yml}\" --write"
   },
   "dependencies": {
     "@vueuse/core": "^7.2.2",
