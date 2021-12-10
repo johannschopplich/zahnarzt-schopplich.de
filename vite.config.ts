@@ -26,8 +26,8 @@ export default defineConfig({
 
     // https://github.com/hannoeru/vite-plugin-pages
     Pages({
+      dirs: 'pages',
       extensions: ['vue', 'md'],
-      pagesDir: 'pages',
       extendRoute(route) {
         const path = resolve(__dirname, route.component.slice(1))
 

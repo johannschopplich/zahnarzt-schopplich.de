@@ -1,11 +1,11 @@
+import { ViteSSG } from 'vite-ssg'
+import generatedRoutes from '~pages'
+import App from './App.vue'
+import type { RouterScrollBehavior } from 'vue-router'
+
 import './styles/base.scss'
 import './styles/components.scss'
 import 'uno.css'
-
-import { ViteSSG } from 'vite-ssg'
-import generatedRoutes from 'virtual:generated-pages'
-import App from './App.vue'
-import type { RouterScrollBehavior } from 'vue-router'
 
 const routes = generatedRoutes.map((i) => ({
   ...i,
