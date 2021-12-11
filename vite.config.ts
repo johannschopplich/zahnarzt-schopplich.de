@@ -8,7 +8,7 @@ import IconsResolver from 'unplugin-icons/resolver'
 import Components from 'unplugin-vue-components/vite'
 import Markdown from 'vite-plugin-md'
 import MarkdownItAnchor from 'markdown-it-anchor'
-import Unocss from 'unocss/vite'
+import UnoCSS from 'unocss/vite'
 import matter from 'gray-matter'
 import slugify from 'slugify'
 
@@ -73,7 +73,7 @@ export default defineConfig({
     }),
 
     // https://github.com/antfu/unocss
-    Unocss(),
+    UnoCSS(),
   ],
 
   // https://github.com/antfu/vite-ssg
