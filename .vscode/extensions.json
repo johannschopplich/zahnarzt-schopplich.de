@@ -3,7 +3,6 @@
     "dbaeumer.vscode-eslint",
     "esbenp.prettier-vscode",
     "johnsoncodehk.volar",
-    "antfu.unocss",
-    "antfu.iconify"
+    "antfu.unocss"
   ]
 }

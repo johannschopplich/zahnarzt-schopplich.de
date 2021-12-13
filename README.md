@@ -1,43 +1,36 @@
 # zahnarzt-schopplich.de
 
-Micro website for my father's dental office. This is my take on a simple website powered by Vite SSG, with a focus on basic SEO to reach as high as possible in each Lighthouse score.
+Micro website for my father's dental office.
 
-This is a opiniated variation of [Vitesse](https://github.com/antfu/vitesse), dropping some features and adapting the boilerplate for my use-case.
+Also a playground for me to try different static site generators. This project was once built with Vite SSG, but has migrated to [îles].
 
-## Features
+[îles]: https://github.com/ElMassimo/iles
 
-- ⚡️ [Vue 3](https://github.com/vuejs/vue-next), [Vite 2](https://github.com/vitejs/vite), [pnpm](https://pnpm.js.org/)
-- 🗂 [File-based routing](./src/pages)
-- 📦 [Components auto importing](./src/components)
-- 😃 [On-demand icon usage from any icon sets](https://github.com/antfu/unplugin-icons)
-- 🗒 [Markdown support](https://github.com/antfu/vite-plugin-md)
-- 🔍 Focus on SEO, including `<link rel="canonical">` via [@vueuse/head](https://github.com/vueuse/head)
-- 🖨 Server-side generation (SSG) via [vite-ssg](https://github.com/antfu/vite-ssg)
-- 🦔 Critical CSS via [critters](https://github.com/GoogleChromeLabs/critters)
+## Recommended IDE Setup
 
-## Usage
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar) (and disable Vetur).
 
-### Development
+## Customize configuration
 
-```bash
-pnpm dev
+See îles [Configuration Reference].
+
+## Project Setup
+
+```sh
+pnpm install
 ```
 
-Afterwards, visit [localhost:3000](http://localhost:3000).
+### Compile and Hot-Reload for Development
 
-### Build
-
-To build the app, run:
-
-```bash
-pnpm build
+```sh
+pnpm run dev
 ```
 
-The generated files will be put into `dist`, ready to be served.
+### Compile and Minify for Production
 
-## Credits
-
-[@antfu](https://github.com/antfu) for all of his incredible work and contributions to the community, including Vitesse, which this repository is forked from.
+```sh
+pnpm run build
+```
 
 ## License
 

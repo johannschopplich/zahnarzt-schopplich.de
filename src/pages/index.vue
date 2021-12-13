@@ -1,7 +1,7 @@
 <template>
   <div class="due-py-xl">
     <section class="due-container-md text-center">
-      <h1 class="due-title title-hero leading-none due-mb-s">
+      <h1 class="due-title leading-none due-mb-s">
         Zahnarztpraxis<br />
         <span class="underlined">Sebastian Schopplich</span>
       </h1>
@@ -51,7 +51,7 @@
     </section>
   </div>
 
-  <div v-if="[9, 10].includes(new Date().getMonth())" class="due-pb-xl">
+  <div v-if="new Date().getMonth() === 11" class="due-pb-xl">
     <NoticeHoliday />
   </div>
 
@@ -63,7 +63,7 @@
 </template>
 
 <style scoped lang="scss">
-.title-hero {
+h1 {
   font-family: Times, Times New Roman, serif;
   font-size: var(--du-text-2);
 
@@ -76,7 +76,7 @@
   position: relative;
 
   &::after {
-    content: '';
+    content: "";
     position: absolute;
     bottom: -8px;
     left: 50%;
@@ -89,7 +89,7 @@
 
 .title-opening-hours {
   &::before {
-    content: '';
+    content: "";
     position: absolute;
     top: 50%;
     left: calc(-1 * var(--du-space-s));
@@ -99,7 +99,7 @@
   }
 
   &::after {
-    content: '';
+    content: "";
     position: absolute;
     top: 0;
     left: calc(-1 * var(--du-space-s) + -2px);

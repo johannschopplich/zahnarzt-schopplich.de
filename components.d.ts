@@ -7,12 +7,11 @@ declare module 'vue' {
     CarbonArrowLeft: typeof import('~icons/carbon/arrow-left')['default']
     CarbonHelp: typeof import('~icons/carbon/help')['default']
     CarbonPhoneFilled: typeof import('~icons/carbon/phone-filled')['default']
-    Footer: typeof import('./components/Footer.vue')['default']
-    Navigation: typeof import('./components/Navigation.vue')['default']
-    NoticeCorona: typeof import('./components/NoticeCorona.vue')['default']
-    NoticeHoliday: typeof import('./components/NoticeHoliday.vue')['default']
-    NoticeJob: typeof import('./components/NoticeJob.vue')['default']
-    Post: typeof import('./components/Post.vue')['default']
+    Footer: typeof import('./src/components/Footer.vue')['default']
+    Navigation: typeof import('./src/components/Navigation.vue')['default']
+    NoticeCorona: typeof import('./src/components/NoticeCorona.vue')['default']
+    NoticeHoliday: typeof import('./src/components/NoticeHoliday.vue')['default']
+    NoticeJob: typeof import('./src/components/NoticeJob.vue')['default']
   }
 }
 

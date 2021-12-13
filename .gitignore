@@ -1,9 +1,6 @@
-.DS_Store
-.vite-ssg-dist
-.vite-ssg-temp
-*.local
+node_modules
 dist
 dist-ssr
-node_modules
-.idea/
-*.log
+.iles-ssg-temp
+.DS_Store
+*.local

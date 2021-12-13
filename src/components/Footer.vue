@@ -4,19 +4,21 @@
       <router-link
         v-for="(item, index) in links"
         :key="index"
-        :to="item.path"
+        :to="item.href"
         class="text-underline"
       >
-        {{ (item.meta?.frontmatter as any)?.title }}
+        {{ item.title }}
       </router-link>
     </div>
   </footer>
 </template>
 
 <script setup lang="ts">
-import generatedRoutes from 'virtual:generated-pages'
+import { usePages } from "~/logic/pages";
 
-const links = generatedRoutes.filter(({ path }) =>
-  ['impressum', 'datenschutzerklaerung'].includes(path.slice(1))
-)
+let pages = $(usePages());
+
+const links = pages.filter(({ href }) =>
+  ["impressum", "datenschutzerklaerung"].includes(href.slice(1))
+);
 </script>
