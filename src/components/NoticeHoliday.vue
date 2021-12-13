@@ -5,7 +5,7 @@
         Urlaub vom 22. bis 31. Dezember 2021
       </h2>
       <p>
-        Am 24. und 31. Dezember ist der zahnärztliche Notdienst telefonsich
+        Am 24. und 31. Dezember ist der zahnärztliche Notdienst telefonisch
         unter
         <a href="116117"
           ><carbon-phone-filled class="inline pr-1" aria-hidden="true" />116
@@ -39,7 +39,8 @@
               </div>
               <div class="column-auto">
                 <p class="text-rose-600 due-text-7 leading-heading">
-                  Bitte melden Sie sich telefonisch an!
+                  ACHTUNG: Eine vorherige telefonische Anmeldung ist unbedingt
+                  erforderlich!
                 </p>
               </div>
             </div>
