@@ -5,8 +5,13 @@
         Urlaub vom 22. bis 31. Dezember 2021
       </h2>
       <p>
-        Am 24. und 31. Dezember ist der zahnärztliche Notdienst unter Telefon
-        <a href="116117">116 117</a> zu erfragen oder unter
+        Am 24. und 31. Dezember ist der zahnärztliche Notdienst telefonsich
+        unter
+        <a href="116117"
+          ><carbon-phone-filled class="inline pr-1" aria-hidden="true" />116
+          117</a
+        >
+        zu erfragen oder unter
         <a href="https://www.kzvth.de/notdienstsuche">
           kzvth.de/notdienstsuche
         </a>
@@ -24,9 +29,12 @@
             </p>
             <div class="columns items-center gap-3">
               <div class="column-narrow">
-                <a href="tel:036577376884" class="due-button-primary">
+                <a
+                  href="tel:036577376884"
+                  class="due-button-primary !due-text-7 !due-px-xs !due-py-2xs"
+                >
                   <carbon-phone-filled class="mr-1" aria-hidden="true" />
-                  03 65 / 77 37 68 84
+                  77 37 68 84
                 </a>
               </div>
               <div class="column-auto">
