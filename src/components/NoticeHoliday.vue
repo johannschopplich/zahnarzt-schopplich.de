@@ -7,13 +7,15 @@
       <p>
         Am 24. und 31. Dezember ist der zahnärztliche Notdienst telefonisch
         unter
-        <a href="116117"
-          ><carbon-phone-filled class="inline pr-1" aria-hidden="true" />116
-          117</a
-        >
+        <a href="116117">
+          <carbon-phone-filled class="inline pr-1" aria-hidden="true" />116 117
+        </a>
         zu erfragen oder unter
         <a href="https://www.kzvth.de/notdienstsuche">
-          kzvth.de/notdienstsuche
+          <carbon-launch
+            class="inline pr-1"
+            aria-hidden="true"
+          />kzvth.de/notdienstsuche
         </a>
         nachzulesen.
       </p>
@@ -28,10 +30,10 @@
               07545 Gera
             </p>
             <div class="columns items-center gap-3">
-              <div class="column-narrow">
+              <div class="column-12 sm:column-narrow">
                 <a
                   href="tel:036577376884"
-                  class="due-button-primary !due-text-7 !due-px-xs !due-py-2xs"
+                  class="due-button-primary !due-text-7 !due-p-xs"
                 >
                   <carbon-phone-filled class="mr-1" aria-hidden="true" />
                   77 37 68 84
@@ -39,8 +41,8 @@
               </div>
               <div class="column-auto">
                 <p class="text-rose-600 due-text-7 leading-heading">
-                  ACHTUNG: Eine vorherige telefonische Anmeldung ist unbedingt
-                  erforderlich!
+                  <strong>Achtung</strong>: Eine vorherige telefonische
+                  Anmeldung ist unbedingt erforderlich!
                 </p>
               </div>
             </div>

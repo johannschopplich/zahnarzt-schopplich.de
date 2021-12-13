@@ -6,6 +6,9 @@ declare module 'vue' {
   export interface GlobalComponents {
     CarbonArrowLeft: typeof import('~icons/carbon/arrow-left')['default']
     CarbonHelp: typeof import('~icons/carbon/help')['default']
+    CarbonLaunch: typeof import('~icons/carbon/launch')['default']
+    CarbonLaunchFilled: typeof import('~icons/carbon/launch-filled')['default']
+    CarbonPhone: typeof import('~icons/carbon/phone')['default']
     CarbonPhoneFilled: typeof import('~icons/carbon/phone-filled')['default']
     Footer: typeof import('./src/components/Footer.vue')['default']
     Navigation: typeof import('./src/components/Navigation.vue')['default']

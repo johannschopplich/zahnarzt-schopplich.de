@@ -8,7 +8,7 @@ specifiers:
   eslint: ^8.4.1
   eslint-config-prettier: ^8.3.0
   eslint-plugin-vue: ^8.2.0
-  iles: ^0.7.3
+  iles: ^0.7.4
   prettier: ^2.5.1
   sass: ^1.45.0
   typescript: ~4.5.3
@@ -24,7 +24,7 @@ devDependencies:
   eslint: 8.4.1
   eslint-config-prettier: 8.3.0_eslint@8.4.1
   eslint-plugin-vue: 8.2.0_eslint@8.4.1
-  iles: 0.7.3_sass@1.45.0
+  iles: 0.7.4_sass@1.45.0
   prettier: 2.5.1
   sass: 1.45.0
   typescript: 4.5.3
@@ -539,13 +539,15 @@ packages:
       '@unocss/scope': 0.16.3
     dev: true
 
-  /@vitejs/plugin-vue/1.10.2_vite@2.7.2:
-    resolution: {integrity: sha512-/QJ0Z9qfhAFtKRY+r57ziY4BSbGUTGsPRMpB/Ron3QPwBZM4OZAZHdTa4a8PafCwU5DTatXG8TMDoP8z+oDqJw==}
+  /@vitejs/plugin-vue/2.0.0_vite@2.7.2+vue@3.2.26:
+    resolution: {integrity: sha512-4Xn1h9OcaAf7KYrvz2oEi52fCCCLcCzyr3pDOrzYTWrs0DrzNOXt9fT5IiGb1f/uoNTdX3aAkXVGNXrGkzF/zw==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
       vite: ^2.5.10
+      vue: ^3.2.25
     dependencies:
       vite: 2.7.2_sass@1.45.0
+      vue: 3.2.26
     dev: true
 
   /@volar/code-gen/0.29.8:
@@ -695,8 +697,8 @@ packages:
     resolution: {integrity: sha512-vPV6Cq+NIWbH5pZu+V+2QHE9y1qfuTq49uNWw4f7FDEeZaDU2H2cx5jcUZOAKW7qTrUS4k6qZPbMy1x4N96nbA==}
     dev: true
 
-  /@vueuse/head/0.6.0_vue@3.2.26:
-    resolution: {integrity: sha512-fi7ZjkMpEAUtTT6iR5wgL2HkX1+3zbrmbpcwU//RgJIWEr5b42jk8E9yOheaC2dYAAHzelAllVpX0pDmhcTXuw==}
+  /@vueuse/head/0.7.4_vue@3.2.26:
+    resolution: {integrity: sha512-cmps+wrdgL77V72vtjU6kaAunkG6GhswaMIQoh7Twc52ql4/p7i1Amd31LqnnvNF/bfuvzcXgYvsH8I7kimZmA==}
     peerDependencies:
       vue: '>=3'
     dependencies:
@@ -1877,8 +1879,8 @@ packages:
     engines: {node: '>= 4'}
     dev: true
 
-  /iles/0.7.3_sass@1.45.0:
-    resolution: {integrity: sha512-ne92pUAlPguJ5owImWi0qcGZ0MJa1pT54GrQFMAjfQuzo1hqqPzqH0D1OPpXlJwehusZOkBKhJ8UXgJ9zmzSrA==}
+  /iles/0.7.4_sass@1.45.0:
+    resolution: {integrity: sha512-oXJt68vFnt4wTTYel8yJlI4HRyMKMPEbjjkUVD+RR99nwW730jkf+5FwGtwx9gHqZgPg8kSR6RifyQ818XPK3Q==}
     engines: {node: '>=14.0.0'}
     hasBin: true
     dependencies:
@@ -1887,10 +1889,10 @@ packages:
       '@islands/pages': 0.7.2_vue@3.2.26
       '@islands/prerender': 0.3.1_vue@3.2.26
       '@nuxt/devalue': 2.0.0
-      '@vitejs/plugin-vue': 1.10.2_vite@2.7.2
+      '@vitejs/plugin-vue': 2.0.0_vite@2.7.2+vue@3.2.26
       '@vue/devtools-api': 6.0.0-beta.20.1
       '@vue/server-renderer': 3.2.26_vue@3.2.26
-      '@vueuse/head': 0.6.0_vue@3.2.26
+      '@vueuse/head': 0.7.4_vue@3.2.26
       debug: 4.3.3
       es-module-lexer: 0.7.1
       local-pkg: 0.4.0
