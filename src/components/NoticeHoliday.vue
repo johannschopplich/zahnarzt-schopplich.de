@@ -7,13 +7,19 @@
       <p>
         Am 24. und 31. Dezember ist der zahnärztliche Notdienst telefonisch
         unter
-        <a href="116117">
-          <carbon-phone-filled class="inline pr-1" aria-hidden="true" />116 117
+        <a href="tel:116117" class="text-underline whitespace-nowrap">
+          <carbon-phone-filled
+            class="relative bottom-[0.075em] inline pr-1"
+            aria-hidden="true"
+          />116 117
         </a>
         zu erfragen oder unter
-        <a href="https://www.kzvth.de/notdienstsuche">
+        <a
+          href="https://www.kzvth.de/notdienstsuche"
+          class="text-underline whitespace-nowrap"
+        >
           <carbon-launch
-            class="inline pr-1"
+            class="relative bottom-[0.075em] inline pr-1"
             aria-hidden="true"
           />kzvth.de/notdienstsuche
         </a>

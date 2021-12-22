@@ -102,7 +102,7 @@ h1 {
     content: "";
     position: absolute;
     top: 0;
-    left: calc(-1 * var(--du-space-s) + -2px);
+    left: calc(-1 * var(--du-space-s) - 2px);
     width: var(--du-space-xs);
     height: 50%;
     background-color: var(--du-color-background);

@@ -14,11 +14,11 @@
 </template>
 
 <script setup lang="ts">
-import { usePages } from "~/logic/pages";
+import type { PageComponent } from "iles";
 
-let pages = $(usePages());
+let pages = $(useDocuments<PageComponent>("~/pages"));
 
-const links = pages.filter(({ href }) =>
-  ["impressum", "datenschutzerklaerung"].includes(href.slice(1))
+const links = pages.filter(({ meta }) =>
+  ["impressum", "datenschutzerklaerung"].includes(meta.href.slice(1))
 );
 </script>

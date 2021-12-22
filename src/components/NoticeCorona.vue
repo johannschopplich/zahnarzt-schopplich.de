@@ -17,9 +17,11 @@
         Bitte betreten Sie die Praxis nicht sofort, sondern beantworten Sie sich
         erst folgende Fragen:
       </h2>
-      <div class="columns text-left">
-        <div class="column-narrow pr-2" aria-hidden="true">
-          <carbon-help />
+      <div class="columns gap-3 text-left">
+        <div class="column-narrow">
+          <p class="mt-1">
+            <carbon-help aria-hidden="true" />
+          </p>
         </div>
         <div class="column">
           <p>
@@ -30,9 +32,11 @@
           </p>
         </div>
       </div>
-      <div class="columns text-left">
-        <div class="column-narrow pr-2" aria-hidden="true">
-          <carbon-help />
+      <div class="columns gap-3 text-left">
+        <div class="column-narrow">
+          <p class="mt-1">
+            <carbon-help aria-hidden="true" />
+          </p>
         </div>
         <div class="column">
           <p>
