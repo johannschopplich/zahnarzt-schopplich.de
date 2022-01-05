@@ -10,19 +10,19 @@
     "format": "prettier --write \"src/**/*.{css,html,json,md,scss,ts,vue,yml}\""
   },
   "devDependencies": {
-    "@iconify/json": "^1.1.446",
-    "@typescript-eslint/eslint-plugin": "^5.8.0",
-    "@typescript-eslint/parser": "^5.8.0",
-    "duecss": "^0.16.8",
-    "eslint": "^8.5.0",
+    "@iconify/json": "^1.1.452",
+    "@typescript-eslint/eslint-plugin": "^5.9.0",
+    "@typescript-eslint/parser": "^5.9.0",
+    "duecss": "^0.16.10",
+    "eslint": "^8.6.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-vue": "^8.2.0",
-    "iles": "^0.7.17",
+    "iles": "^0.7.21",
     "prettier": "^2.5.1",
-    "sass": "^1.45.1",
+    "sass": "^1.45.2",
     "typescript": "~4.5.4",
-    "unocss": "^0.17.2",
-    "unplugin-icons": "^0.12.23",
-    "vue-tsc": "^0.30.0"
+    "unocss": "^0.21.0",
+    "unplugin-icons": "^0.13.0",
+    "vue-tsc": "^0.30.2"
   }
 }
