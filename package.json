@@ -10,7 +10,7 @@
     "format": "prettier --write \"src/**/*.{css,html,json,md,scss,ts,vue,yml}\""
   },
   "devDependencies": {
-    "@iconify/json": "^1.1.452",
+    "@iconify/json": "^1.1.453",
     "@typescript-eslint/eslint-plugin": "^5.9.0",
     "@typescript-eslint/parser": "^5.9.0",
     "duecss": "^0.16.10",
@@ -19,9 +19,9 @@
     "eslint-plugin-vue": "^8.2.0",
     "iles": "^0.7.21",
     "prettier": "^2.5.1",
-    "sass": "^1.45.2",
+    "sass": "^1.46.0",
     "typescript": "~4.5.4",
-    "unocss": "^0.21.0",
+    "unocss": "^0.21.2",
     "unplugin-icons": "^0.13.0",
     "vue-tsc": "^0.30.2"
   }
