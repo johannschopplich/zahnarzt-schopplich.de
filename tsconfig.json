@@ -1,21 +1,20 @@
 {
   "compilerOptions": {
-    "baseUrl": "./",
     "target": "esnext",
-    "useDefineForClassFields": true,
+    "lib": ["esnext", "dom", "dom.iterable", "scripthost"],
+    "jsx": "preserve",
     "module": "esnext",
     "moduleResolution": "node",
-    "isolatedModules": true,
-    "strict": true,
-    "jsx": "preserve",
-    "sourceMap": true,
-    "resolveJsonModule": true,
-    "esModuleInterop": true,
+    "baseUrl": "./",
     "paths": {
       "@/*": ["src/*"],
       "~/*": ["src/*"]
     },
-    "lib": ["esnext", "dom", "dom.iterable", "scripthost"],
+    "types": ["vite/client", "iles"],
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
     "skipLibCheck": true
   }
 }
