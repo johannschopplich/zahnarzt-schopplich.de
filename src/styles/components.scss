@@ -1,4 +1,4 @@
-@use 'duecss/components/content';
+@use "duecss/components/content";
 
 .box {
   --box-background: white;
@@ -10,7 +10,7 @@
     4px 4px 0 var(--box-background);
   padding: var(--du-space-m);
 
-  [data-theme='dark'] & {
+  [data-theme="dark"] & {
     --box-background: var(--du-color-contrast-lowest);
   }
 

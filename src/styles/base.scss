@@ -1,11 +1,11 @@
-@use 'duecss/base/all';
+@use "duecss/base/all";
 
 :root {
-  --du-radius: 2px;
+  --du-radius: 4px;
 }
 
 :root:not([data-theme]),
-[data-theme='light'] {
+[data-theme="light"] {
   --du-color-background: hsl(37, 90%, 84%);
   --du-color-link: var(--du-color-text);
   --du-color-link-hover: var(--du-color-primary);

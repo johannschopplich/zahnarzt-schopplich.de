@@ -37,6 +37,7 @@
             }}<span class="hidden md:inline">{{ day.slice(2) }}</span>
           </p>
         </div>
+
         <div class="column-narrow text-left">
           <h2 class="relative due-title title-opening-hours due-text-4 mb-1">
             Öffnungszeiten
@@ -51,7 +52,7 @@
     </section>
   </div>
 
-  <div v-if="new Date().getMonth() === 11" class="due-pb-xl">
+  <div class="due-pb-xl">
     <NoticeHoliday />
   </div>
 
