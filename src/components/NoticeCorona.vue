@@ -19,8 +19,8 @@
       </h2>
       <div class="columns gap-3 text-left">
         <div class="column-narrow">
-          <p class="mt-1">
-            <carbon-help aria-hidden="true" />
+          <p>
+            <CarbonHelp class="w-7 h-7" aria-hidden="true" />
           </p>
         </div>
         <div class="column">
@@ -34,8 +34,8 @@
       </div>
       <div class="columns gap-3 text-left">
         <div class="column-narrow">
-          <p class="mt-1">
-            <carbon-help aria-hidden="true" />
+          <p>
+            <CarbonHelp class="w-7 h-7" aria-hidden="true" />
           </p>
         </div>
         <div class="column">
@@ -51,7 +51,7 @@
         Praxis per Telefon an:
       </h3>
       <a href="tel:03654204317" class="due-button-primary-outlined text-center">
-        <carbon-phone-filled class="mr-1" aria-hidden="true" />
+        <CarbonPhoneFilled class="mr-1" aria-hidden="true" />
         0365 / 420 43 17
       </a>
 

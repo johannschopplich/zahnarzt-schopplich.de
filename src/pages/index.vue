@@ -11,7 +11,7 @@
           in 07546 Gera-Bieblach
         </p>
         <a href="tel:03654204317" class="due-button-primary-outlined">
-          <carbon-phone-filled class="mr-1" aria-hidden="true" />
+          <CarbonPhoneFilled class="mr-1" aria-hidden="true" />
           0365 / 420 43 17
         </a>
       </div>
