@@ -7,12 +7,12 @@
       :to="route.path.split('/').slice(0, -1).join('/') || '/'"
       class="due-button-text"
     >
-      <CarbonArrowLeft class="text-primary mr-1" aria-hidden="true" />Zurück
+      <CarbonArrowLeft class="text-primary mr-1" aria-hidden="true" />
+      <span class="text-primary">Zurück</span>
     </RouterLink>
   </nav>
 </template>
 
 <script setup lang="ts">
-import { useRoute } from "vue-router";
 const route = useRoute();
 </script>

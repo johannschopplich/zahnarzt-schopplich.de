@@ -1,6 +1,5 @@
 import { defineApp } from "iles";
 import { computed } from "vue";
-import type { RouterScrollBehavior } from "vue-router";
 
 import "~/styles/base.scss";
 import "~/styles/components.scss";
@@ -38,12 +37,5 @@ export default defineApp({
         },
       ],
     };
-  },
-
-  router: {
-    // @ts-expect-error: types missing
-    scrollBehavior(current, previous, savedPosition): RouterScrollBehavior {
-      return savedPosition ?? { top: 0 };
-    },
   },
 });
