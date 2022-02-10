@@ -1,5 +1,5 @@
 <template>
-  <div class="due-container-md-full box border-[0.5rem] border-rose-600">
+  <div class="due-container-md box border-[0.5rem] border-rose-600">
     <div class="content text-center">
       <h2>
         Sehr geehrte Patienten,<br />wir sind trotz der Corona-Pandemie<br />weiterhin
