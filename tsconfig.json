@@ -7,7 +7,6 @@
     "moduleResolution": "node",
     "baseUrl": "./",
     "paths": {
-      "@/*": ["src/*"],
       "~/*": ["src/*"]
     },
     "types": ["vite/client", "iles"],

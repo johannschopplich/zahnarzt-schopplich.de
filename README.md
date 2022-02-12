@@ -6,6 +6,14 @@ Also a playground for me to try different static site generators. This project w
 
 [îles]: https://github.com/ElMassimo/iles
 
+It serves as a best practice solution for when I want to spin up a SSG site quickly.
+
+## Key Features
+
+- ⚡️ [Vue 3](https://github.com/vuejs/vue-next)
+- 🌴 [îles](https://github.com/ElMassimo/iles)
+- 🔍 [Auto-generated meta tags](./src/components/MetaTags.vue)
+
 ## Recommended IDE Setup
 
 [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar).

@@ -1,3 +1,15 @@
+<script setup lang="ts">
+import type { PageComponent } from "iles";
+
+let pages = $(useDocuments<PageComponent>("~/pages"));
+
+const links = $computed(() =>
+  pages.filter(({ meta }) =>
+    ["impressum", "datenschutzerklaerung"].includes(meta.href.slice(1))
+  )
+);
+</script>
+
 <template>
   <footer class="due-container-md box due-mt-xl due-mb-l">
     <div class="text-center space-x-5">
@@ -12,13 +24,3 @@
     </div>
   </footer>
 </template>
-
-<script setup lang="ts">
-import type { PageComponent } from "iles";
-
-let pages = $(useDocuments<PageComponent>("~/pages"));
-
-const links = pages.filter(({ meta }) =>
-  ["impressum", "datenschutzerklaerung"].includes(meta.href.slice(1))
-);
-</script>

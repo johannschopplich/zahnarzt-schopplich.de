@@ -1,7 +1,3 @@
-<template>
-  <main>
-    <slot />
-  </main>
-
-  <Footer />
+<template layout="base">
+  <slot />
 </template>

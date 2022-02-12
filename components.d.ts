@@ -4,10 +4,13 @@
 
 declare module 'vue' {
   export interface GlobalComponents {
+    BaseLayout: typeof import('./src/layouts/base.vue')['default']
     CarbonArrowLeft: typeof import('~icons/carbon/arrow-left')['default']
     CarbonHelp: typeof import('~icons/carbon/help')['default']
     CarbonPhoneFilled: typeof import('~icons/carbon/phone-filled')['default']
     Footer: typeof import('./src/components/Footer.vue')['default']
+    Head: typeof import('@vueuse/head')['Head']
+    MetaTags: typeof import('./src/components/MetaTags.vue')['default']
     Navigation: typeof import('./src/components/Navigation.vue')['default']
     NoticeCorona: typeof import('./src/components/NoticeCorona.vue')['default']
     NoticeHoliday: typeof import('./src/components/NoticeHoliday.vue')['default']
