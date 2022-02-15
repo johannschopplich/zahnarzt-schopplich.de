@@ -1,7 +1,7 @@
 {
   "root": true,
   "env": {
-    "es2021": true,
+    "es2022": true,
     "browser": true,
     "node": true,
     "vue/setup-compiler-macros": true
@@ -12,24 +12,14 @@
     "plugin:vue/vue3-recommended",
     "prettier"
   ],
-  "parser": "@typescript-eslint/parser",
+  "parser": "vue-eslint-parser",
   "parserOptions": {
-    "ecmaVersion": 12,
+    "parser": "@typescript-eslint/parser",
+    "ecmaVersion": 13,
     "sourceType": "module"
   },
-  "overrides": [
-    {
-      "files": ["*.vue"],
-      "parser": "vue-eslint-parser",
-      "parserOptions": {
-        "parser": "@typescript-eslint/parser"
-      },
-      "rules": {
-        "no-undef": "off"
-      }
-    }
-  ],
   "rules": {
+    "no-undef": "off",
     "vue/multi-word-component-names": "off",
     "vue/script-setup-uses-vars": "error"
   }
