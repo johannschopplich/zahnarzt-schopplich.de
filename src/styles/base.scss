@@ -1,9 +1,5 @@
 @use "duecss/base/all";
 
-:root {
-  --du-radius: 4px;
-}
-
 :root:not([data-theme]),
 [data-theme="light"] {
   --du-color-background: hsl(37, 90%, 84%);

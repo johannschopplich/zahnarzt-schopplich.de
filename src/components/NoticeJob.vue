@@ -1,11 +1,11 @@
 <template>
   <section class="due-container-md box">
     <h2
-      class="absolute -top-7 -left-4 bg-primary text-white due-text-7 font-semibold leading-none p-2 rounded-sm case-upper transform -rotate-6 z-10"
+      class="absolute -top-7 -left-4 bg-primary text-white text-size-sm font-semibold leading-none p-2 rounded-sm case-upper transform -rotate-6 z-10"
     >
       Stellen<br />anzeige
     </h2>
-    <div class="content">
+    <div class="prose">
       <p>
         Zur Verstärkung unseres Teams wird ab dem
         <strong>1. Januar 2022</strong> eine

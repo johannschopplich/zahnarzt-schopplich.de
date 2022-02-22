@@ -11,8 +11,8 @@ const links = $computed(() =>
 </script>
 
 <template>
-  <footer class="due-container-md box due-mt-xl due-mb-l">
-    <div class="text-center space-x-5">
+  <footer class="due-container-md box mt-5xl mb-4xl">
+    <div class="text-center space-x-lg">
       <router-link
         v-for="(item, index) in links"
         :key="index"

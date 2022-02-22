@@ -1,6 +1,6 @@
 <template>
   <div class="due-container-md box border-[0.5rem] border-rose-600">
-    <div class="content text-center">
+    <div class="prose text-center">
       <h2>
         Sehr geehrte Patienten,<br />wir sind trotz der Corona-Pandemie<br />weiterhin
         für Sie da!
@@ -17,7 +17,7 @@
         Bitte betreten Sie die Praxis nicht sofort, sondern beantworten Sie sich
         erst folgende Fragen:
       </h2>
-      <div class="columns gap-3 text-left">
+      <div class="columns gap-sm text-left">
         <div class="column-narrow">
           <p>
             <CarbonHelp class="w-7 h-7" aria-hidden="true" />
@@ -32,7 +32,7 @@
           </p>
         </div>
       </div>
-      <div class="columns gap-3 text-left">
+      <div class="columns gap-sm text-left">
         <div class="column-narrow">
           <p>
             <CarbonHelp class="w-7 h-7" aria-hidden="true" />
@@ -46,7 +46,7 @@
         </div>
       </div>
 
-      <h3 class="due-mb-m">
+      <h3 class="mb-lg">
         Haben Sie eine Frage mit „Ja“ beantwortet? — Rufen Sie bitte unsere
         Praxis per Telefon an:
       </h3>
@@ -71,7 +71,7 @@
 </template>
 
 <style scoped lang="scss">
-.content {
+.prose {
   & h2:not(:first-child),
   & h3:not(:first-child) {
     margin-top: 0;

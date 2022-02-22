@@ -1,11 +1,11 @@
 <template>
-  <div class="due-py-xl">
+  <div class="py-5xl">
     <section class="due-container-md text-center">
-      <h1 class="due-title leading-none due-mb-s">
+      <h1 class="due-title leading-none mb-xs">
         Zahnarztpraxis<br />
         <span class="underlined">Sebastian Schopplich</span>
       </h1>
-      <div class="due-mb-xl">
+      <div class="mb-5xl">
         <p class="mb-2">
           Johannes-R.-Becher-Straße 66<br class="md:hidden" />
           in 07546 Gera-Bieblach
@@ -21,7 +21,7 @@
           class="column-narrow text-left mr-3 pr-3"
           style="border-right: 1px solid"
         >
-          <div class="due-title due-text-4 unselectable mb-1">&nbsp;</div>
+          <div class="due-title text-size-xl unselectable mb-1">&nbsp;</div>
           <p
             v-for="day in [
               'Montag',
@@ -39,7 +39,7 @@
         </div>
 
         <div class="column-narrow text-left">
-          <h2 class="relative due-title title-opening-hours due-text-4 mb-1">
+          <h2 class="relative due-title title-opening-hours text-size-xl mb-1">
             Öffnungszeiten
           </h2>
           <p>8.00-13.00 Uhr und 13.30-16.00 Uhr</p>
@@ -52,11 +52,11 @@
     </section>
   </div>
 
-  <div class="due-pb-xl">
+  <div class="pb-5xl">
     <NoticeHoliday />
   </div>
 
-  <div class="due-pb-xl">
+  <div class="pb-5xl">
     <NoticeJob />
   </div>
 
@@ -66,10 +66,10 @@
 <style scoped lang="scss">
 h1 {
   font-family: Times, Times New Roman, serif;
-  font-size: var(--du-text-2);
+  font-size: var(--du-text-3xl);
 
   @media (min-width: 768px) {
-    font-size: calc(var(--du-text-1) + 1vw);
+    font-size: calc(var(--du-text-4xl) + 1vw);
   }
 }
 
@@ -93,8 +93,8 @@ h1 {
     content: "";
     position: absolute;
     top: 50%;
-    left: calc(-1 * var(--du-space-s));
-    width: var(--du-space-xs);
+    left: calc(-1 * 0.75rem);
+    width: 0.5rem;
     height: 1px;
     background-color: currentColor;
   }
@@ -103,8 +103,8 @@ h1 {
     content: "";
     position: absolute;
     top: 0;
-    left: calc(-1 * var(--du-space-s) - 2px);
-    width: var(--du-space-xs);
+    left: calc(-0.75rem - 2px);
+    width: 0.5rem;
     height: 50%;
     background-color: var(--du-color-background);
   }

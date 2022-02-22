@@ -13,7 +13,7 @@ export default defineConfig({
       // https://github.com/antfu/unplugin-icons
       Icons(),
 
-      // https://github.com/antfu/unocss
+      // https://github.com/unocss/unocss
       UnoCSS(),
     ],
   },
