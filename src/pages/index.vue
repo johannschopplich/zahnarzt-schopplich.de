@@ -18,7 +18,7 @@
 
       <div class="columns items-center justify-center">
         <div
-          class="column-narrow text-left mr-3 pr-3"
+          class="column-narrow text-left mr-xs pr-xs"
           style="border-right: 1px solid"
         >
           <div class="due-title text-size-xl unselectable mb-1">&nbsp;</div>
