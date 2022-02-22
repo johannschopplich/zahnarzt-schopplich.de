@@ -42,10 +42,10 @@
             07545 Gera
           </p>
           <div class="columns items-center gap-sm">
-            <div class="column-12 sm:column-narrow">
+            <div class="column-full sm:column-narrow">
               <a
                 href="tel:03658001160"
-                class="due-button-primary !text-size-sm !p-2"
+                class="due-button-primary text-size-sm p-2"
               >
                 <CarbonPhoneFilled class="mr-1" aria-hidden="true" />
                 03 65 / 800 11 60
