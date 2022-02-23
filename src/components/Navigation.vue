@@ -8,7 +8,7 @@
       class="due-button-text text-uppercase text-size-sm pl-1 pr-2"
     >
       <CarbonArrowLeft class="text-primary mr-1" aria-hidden="true" />
-      <span class="text-primary">Zurück</span>
+      <span>Zurück</span>
     </RouterLink>
   </nav>
 </template>

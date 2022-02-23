@@ -11,7 +11,7 @@ a:not([class]),
 a.text-underline {
   text-decoration-line: underline;
   text-decoration-color: var(--du-color-primary);
-  text-decoration-thickness: max(1px, 0.05em);
+  text-decoration-thickness: max(1px, 0.075em);
   text-underline-offset: max(2px, 0.125em);
 
   &:hover {
