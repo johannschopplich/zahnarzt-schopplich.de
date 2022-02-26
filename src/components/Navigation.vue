@@ -5,7 +5,7 @@
   >
     <RouterLink
       :to="route.path.split('/').slice(0, -1).join('/') || '/'"
-      class="due-button-text text-uppercase text-size-sm pl-1 pr-2"
+      class="button-text text-uppercase text-size-sm pl-1 pr-2"
     >
       <CarbonArrowLeft class="text-primary mr-1" aria-hidden="true" />
       <span>Zurück</span>

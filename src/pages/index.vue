@@ -1,16 +1,16 @@
 <template>
   <div class="py-5xl">
-    <section class="due-container-md text-center">
-      <h1 class="due-title leading-none mb-xs">
+    <section class="content max-w-screen-md text-center">
+      <h1 class="title leading-none mb-xs">
         Zahnarztpraxis<br />
-        <span class="underlined">Sebastian Schopplich</span>
+        <span class="shadow-underline">Sebastian Schopplich</span>
       </h1>
       <div class="mb-5xl">
         <p class="mb-2">
           Johannes-R.-Becher-Straße 66<br class="md:hidden" />
           in 07546 Gera-Bieblach
         </p>
-        <a href="tel:03654204317" class="due-button-primary-outlined">
+        <a href="tel:03654204317" class="button-primary-outlined">
           <CarbonPhoneFilled class="mr-1" aria-hidden="true" />
           0365 / 420 43 17
         </a>
@@ -39,7 +39,7 @@
         </div>
 
         <div class="column-narrow text-left">
-          <h2 class="relative due-title title-opening-hours text-size-xl mb-1">
+          <h2 class="relative title title-opening-hours text-size-xl mb-1">
             Öffnungszeiten
           </h2>
           <p>8.00-13.00 Uhr und 13.30-16.00 Uhr</p>
@@ -73,7 +73,7 @@ h1 {
   }
 }
 
-.underlined {
+.shadow-underline {
   position: relative;
 
   &::after {

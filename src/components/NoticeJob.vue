@@ -1,5 +1,5 @@
 <template>
-  <section class="due-container-md box">
+  <section class="content max-w-screen-md box">
     <h2
       class="absolute -top-7 -left-4 bg-primary text-white text-size-sm leading-none font-medium text-uppercase p-2 rounded transform -rotate-6 z-10"
     >

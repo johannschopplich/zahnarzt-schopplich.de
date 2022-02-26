@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { defineConfig, presetUno } from "unocss";
 import { presetDue } from "duecss";
 
@@ -18,7 +19,17 @@ export default defineConfig({
         "900": "#000000",
       },
     },
+    boxShadow: {
+      underline: "inset 0 -0.175em var(--du-color-primary)",
+    },
   },
-  safelist: ["due-var-color-primary"],
+  shortcuts: [
+    [
+      /^content$/,
+      ([,], { theme }) =>
+        `relative mx-auto w-[calc(100%-2*${(theme as any).spacing.lg})]`,
+    ],
+  ],
+  safelist: ["var-color-primary"],
   presets: [presetUno(), presetDue()],
 });

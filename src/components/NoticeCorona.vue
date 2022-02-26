@@ -1,5 +1,5 @@
 <template>
-  <div class="due-container-md box border-[0.5rem] border-rose-600">
+  <div class="content max-w-screen-md box border-[0.5rem] border-rose-600">
     <div class="prose text-center">
       <h2>
         Sehr geehrte Patienten,<br />wir sind trotz der Corona-Pandemie<br />weiterhin
@@ -50,7 +50,7 @@
         Haben Sie eine Frage mit „Ja“ beantwortet? — Rufen Sie bitte unsere
         Praxis per Telefon an:
       </h3>
-      <a href="tel:03654204317" class="due-button-primary-outlined text-center">
+      <a href="tel:03654204317" class="button-primary-outlined text-center">
         <CarbonPhoneFilled class="mr-1" aria-hidden="true" />
         0365 / 420 43 17
       </a>

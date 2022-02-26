@@ -21,7 +21,7 @@ export default defineApp({
   head({ page, route, meta, frontmatter, site }) {
     return {
       htmlAttrs: {
-        class: "due-var-color-primary",
+        class: "var-color-primary",
         lang: "de",
         // "data-theme": "light",
       },

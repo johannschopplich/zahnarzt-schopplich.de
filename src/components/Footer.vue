@@ -11,7 +11,7 @@ const links = $computed(() =>
 </script>
 
 <template>
-  <footer class="due-container-md box mt-5xl mb-4xl">
+  <footer class="content max-w-screen-md box mt-5xl mb-4xl">
     <div class="text-center space-x-lg">
       <router-link
         v-for="(item, index) in links"

@@ -1,13 +1,13 @@
 <template layout="base">
   <div class="py-5xl">
-    <div class="due-container-md text-center">
-      <h1 class="due-title text-size-4xl leading-none">
-        <span class="underlined">{{ $frontmatter.title }}</span>
+    <div class="content max-w-screen-md text-center">
+      <h1 class="title text-size-4xl leading-none">
+        <span class="shadow-underline">{{ $frontmatter.title }}</span>
       </h1>
     </div>
   </div>
 
-  <div class="due-container-md-full">
+  <div class="content max-w-screen-md w-full">
     <Navigation class="mb-2 mr-2" />
 
     <section class="box prose">
