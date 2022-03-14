@@ -1,4 +1,5 @@
-@use "duecss/base/all";
+@use "duecss/reset";
+@use "duecss/base";
 
 :root:not([data-theme]),
 [data-theme="light"] {
