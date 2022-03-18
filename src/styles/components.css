@@ -1,0 +1,8 @@
+.box {
+  --box-background: white;
+  @apply block bg-[var(--box-background)] rounded-md shadow-box p-lg md:p-3xl;
+}
+
+[data-theme="dark"] .box {
+  --box-background: var(--du-color-contrast-lowest);
+}

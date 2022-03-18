@@ -1,8 +1,7 @@
 import { defineApp } from "iles";
 import checkDarkTheme from "~/logic/dark-color-scheme-check?raw";
 
-import "~/styles/base.scss";
-import "~/styles/components.scss";
+import "~/styles/main.css";
 import "uno.css";
 
 const prodScripts = import.meta.env.PROD

@@ -1,6 +1,3 @@
-@use "duecss/reset";
-@use "duecss/base";
-
 :root:not([data-theme]),
 [data-theme="light"] {
   --du-color-background: hsl(37, 90%, 84%);
@@ -14,8 +11,9 @@ a.text-underline {
   text-decoration-color: var(--du-color-primary);
   text-decoration-thickness: max(1px, 0.075em);
   text-underline-offset: max(2px, 0.125em);
+}
 
-  &:hover {
-    text-decoration-color: currentColor;
-  }
+a:not([class]):hover,
+a.text-underline:hover {
+  text-decoration-color: currentColor;
 }

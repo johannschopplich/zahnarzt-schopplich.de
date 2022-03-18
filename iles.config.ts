@@ -2,11 +2,12 @@ import { defineConfig } from "iles";
 import Icons from "unplugin-icons/vite";
 import IconsResolver from "unplugin-icons/resolver";
 import UnoCSS from "unocss/vite";
+import transformerDirective from "@unocss/transformer-directives";
 
 export default defineConfig({
   siteUrl: "https://zahnarzt-schopplich.de",
   components: {
-    resolvers: [IconsResolver({ prefix: "" })],
+    resolvers: [IconsResolver({ prefix: false })],
   },
   vite: {
     plugins: [
@@ -14,7 +15,9 @@ export default defineConfig({
       Icons(),
 
       // https://github.com/unocss/unocss
-      UnoCSS(),
+      UnoCSS({
+        transformers: [transformerDirective()],
+      }),
     ],
   },
 });

@@ -21,6 +21,7 @@ export default defineConfig({
     },
     boxShadow: {
       underline: "inset 0 -0.175em var(--du-color-primary)",
+      box: "3px 3px 0 var(--du-color-background), 4px 4px 0 var(--box-background)",
     },
   },
   shortcuts: [
