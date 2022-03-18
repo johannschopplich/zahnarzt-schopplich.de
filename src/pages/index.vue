@@ -3,7 +3,7 @@
     <section class="content max-w-screen-md text-center">
       <h1 class="title leading-none mb-xs">
         Zahnarztpraxis<br />
-        <span class="shadow-underline">Sebastian Schopplich</span>
+        <span class="shadow-underline triangle">Sebastian Schopplich</span>
       </h1>
       <div class="mb-5xl">
         <p class="mb-2">
@@ -52,9 +52,9 @@
     </section>
   </div>
 
-  <div class="pb-5xl">
+  <!-- <div class="pb-5xl">
     <NoticeHoliday />
-  </div>
+  </div> -->
 
   <div class="pb-5xl">
     <NoticeJob />
@@ -63,50 +63,18 @@
   <NoticeCorona />
 </template>
 
-<style scoped lang="scss">
+<style scoped>
 h1 {
+  @apply text-size-3xl md:text-size-[calc(var(--du-text-4xl)+1vw)];
   font-family: Times, Times New Roman, serif;
-  font-size: var(--du-text-3xl);
-
-  @media (min-width: 768px) {
-    font-size: calc(var(--du-text-4xl) + 1vw);
-  }
 }
 
-.shadow-underline {
-  position: relative;
-
-  &::after {
-    content: "";
-    position: absolute;
-    bottom: -8px;
-    left: 50%;
-    border-left: 8px solid transparent;
-    border-right: 8px solid transparent;
-    border-top: 8px solid var(--du-color-primary);
-    transform: translateX(-50%);
-  }
+.triangle {
+  @apply relative after:content-empty after:absolute after:-bottom-8px after:left-1/2 after:b-l-8 after:b-l-transparent after:b-r-8 after:b-r-transparent after:b-t-8 after:b-t-primary after:-translate-x-50%;
 }
 
 .title-opening-hours {
-  &::before {
-    content: "";
-    position: absolute;
-    top: 50%;
-    left: calc(-1 * 0.75rem);
-    width: 0.5rem;
-    height: 1px;
-    background-color: currentColor;
-  }
-
-  &::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: calc(-0.75rem - 2px);
-    width: 0.5rem;
-    height: 50%;
-    background-color: var(--du-color-background);
-  }
+  @apply before:content-empty before:absolute before:top-1/2 before:left-[calc(-1*0.75rem)] before:w-2 before:h-1px before:bg-current;
+  @apply after:content-empty after:absolute after:top-0 after:left-[calc(-0.75rem-2px)] after:w-2 after:h-1/2 after:bg-theme-background;
 }
 </style>

@@ -70,11 +70,9 @@
   </div>
 </template>
 
-<style scoped lang="scss">
-.prose {
-  & h2:not(:first-child),
-  & h3:not(:first-child) {
-    margin-top: 0;
-  }
+<style scoped>
+.prose h2:not(:first-child),
+.prose h3:not(:first-child) {
+  margin-top: 0;
 }
 </style>
