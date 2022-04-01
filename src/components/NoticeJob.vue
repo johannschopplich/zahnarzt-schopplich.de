@@ -9,7 +9,7 @@
     <div class="prose">
       <p>
         Zur Verstärkung unseres Teams wird ab dem
-        <strong>1. Januar 2022</strong> eine
+        <strong>1. Juni 2022</strong> eine
         <strong>
           Zahnarzthelferin in Voll- oder Teilzeit in unbefristeter Anstellung
         </strong>

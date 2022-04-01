@@ -52,9 +52,9 @@
     </section>
   </div>
 
-  <!-- <div class="pb-5xl">
+  <div class="pb-5xl">
     <NoticeHoliday />
-  </div> -->
+  </div>
 
   <div class="pb-5xl">
     <NoticeJob />
