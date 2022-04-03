@@ -1,10 +1,11 @@
 # zahnarzt-schopplich.de
 
+[îles]: https://github.com/ElMassimo/iles
+[configuration reference]: https://iles-docs.netlify.app/config
+
 Micro website for my father's dental office.
 
 Also a playground for me to try different static site generators. This project was once built with Vite SSG, but has migrated to [îles].
-
-[îles]: https://github.com/ElMassimo/iles
 
 It serves as a best practice solution for when I want to spin up a SSG site quickly.
 
@@ -14,11 +15,18 @@ It serves as a best practice solution for when I want to spin up a SSG site quic
 - 🌴 [îles](https://github.com/ElMassimo/iles)
 - 🔍 [Auto-generated meta tags](./src/components/MetaTags.vue)
 
-## Recommended IDE Setup
+## Prerequisites
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar).
+Before getting started, please make sure you have installed the recommended setup.
 
-## Customize configuration
+- **Node.js**<sup>\*</sup> (v16, the latest LTS version) 👉 [[Download](https://nodejs.org/en/download/)]
+- **pnpm**<sup>\*</sup> (the fast and disk space efficient package manager) 👉 [[Download](https://pnpm.io/installation#nodejs-is-preinstalled)]
+- **Visual Studio Code** 👉 [[Download](https://code.visualstudio.com/)]
+- **Volar Extension** 👉 [[Download](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)]
+  - Either enable [**Take Over Mode**](https://github.com/johnsoncodehk/volar/discussions/471) (recommended)
+  - ... or add **TypeScript Vue Plugin (Volar)** 👉 [[Download](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.vscode-typescript-vue-plugin)]
+
+## Customize Configuration
 
 See îles [Configuration Reference].
 

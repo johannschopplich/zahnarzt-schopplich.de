@@ -4,6 +4,7 @@
     "dev": "iles dev --open",
     "build": "iles build",
     "preview": "iles preview --open --port 5050",
+    "test": "iles test",
     "typecheck": "vue-tsc --noEmit",
     "lint": "eslint \"src/**/*.{ts,vue}\"",
     "lint:fix": "npm run lint -- --fix",
@@ -25,6 +26,8 @@
     "prettier": "^2.6.2",
     "typescript": "~4.6.3",
     "unocss": "^0.30.11",
-    "unplugin-icons": "^0.14.1"
+    "unplugin-icons": "^0.14.1",
+    "vitest": "^0.8.4",
+    "vue-tsc": "^0.33.9"
   }
 }

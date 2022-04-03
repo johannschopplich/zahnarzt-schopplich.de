@@ -4,3 +4,4 @@ dist-ssr
 .iles-ssg-temp
 .DS_Store
 *.local
+components.d.ts
