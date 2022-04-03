@@ -2,7 +2,7 @@
   <section class="content max-w-screen-md box">
     <div class="prose">
       <h2 class="text-center text-primary">
-        Urlaub vom 11. April bis 22. April 2022
+        Urlaub vom 11. bis 22. April 2022
       </h2>
 
       <!-- <p>
@@ -28,8 +28,8 @@
       </p> -->
 
       <p>
-        Ab dem 25. März sind wir zu den regulären Sprechzeiten wieder für Sie da!
-        Unsere Zahnarztpraxis wird vertreten durch:
+        Ab dem 25. April sind wir zu den regulären Sprechzeiten wieder für Sie
+        da! Unsere Zahnarztpraxis wird vertreten durch:
       </p>
 
       <div class="columns">
