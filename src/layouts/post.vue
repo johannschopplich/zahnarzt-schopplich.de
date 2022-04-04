@@ -8,7 +8,7 @@
   </div>
 
   <div class="content max-w-screen-md w-full">
-    <Navigation class="mb-2 mr-2" />
+    <AppNavigation class="mb-2 mr-2" />
 
     <section class="box prose">
       <slot />
