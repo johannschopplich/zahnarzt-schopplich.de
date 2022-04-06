@@ -22,7 +22,6 @@ export default defineApp({
       htmlAttrs: {
         class: "var-color-primary",
         lang: "de",
-        // "data-theme": "light",
       },
       script: [{ children: checkDarkTheme, once: true }, ...prodScripts],
     };
