@@ -5,15 +5,17 @@
     "jsx": "preserve",
     "module": "esnext",
     "moduleResolution": "node",
-    "baseUrl": "./",
+    "baseUrl": ".",
     "paths": {
       "~/*": ["src/*"]
     },
     "types": ["vite/client", "iles", "unplugin-icons/types/vue"],
     "resolveJsonModule": true,
+    "isolatedModules": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,
+    "sourceMap": true,
     "skipLibCheck": true
   }
 }
