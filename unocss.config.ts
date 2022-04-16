@@ -1,5 +1,7 @@
+/* eslint-disable @typescript-eslint/no-non-null-assertion */
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import { defineConfig, presetUno } from "unocss";
+import { defineConfig } from "unocss";
+import { presetWind, theme } from "@unocss/preset-wind";
 import { presetDue } from "duecss";
 
 export default defineConfig({
@@ -25,12 +27,10 @@ export default defineConfig({
     },
   },
   shortcuts: [
-    [
-      /^content$/,
-      ([,], { theme }) =>
-        `relative mx-auto w-[calc(100%-2*${(theme as any).spacing.lg})]`,
-    ],
+    {
+      content: `relative mx-auto w-[calc(100%-2*${theme.spacing!.lg})]`,
+    },
   ],
   safelist: ["var-color-primary"],
-  presets: [presetUno(), presetDue()],
+  presets: [presetWind(), presetDue()],
 });
