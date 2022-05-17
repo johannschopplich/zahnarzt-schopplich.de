@@ -5,9 +5,8 @@
     "jsx": "preserve",
     "module": "esnext",
     "moduleResolution": "node",
-    "baseUrl": ".",
     "paths": {
-      "~/*": ["src/*"]
+      "~/*": ["./src/*"]
     },
     "types": ["vite/client", "iles", "unplugin-icons/types/vue"],
     "resolveJsonModule": true,
