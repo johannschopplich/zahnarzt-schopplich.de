@@ -6,28 +6,28 @@
     "preview": "iles preview --open --port 5050",
     "test": "iles test",
     "typecheck": "vue-tsc --noEmit",
-    "lint": "eslint \"src/**/*.{ts,vue}\"",
+    "lint": "eslint \"src/**/*.{ts,vue}\" --ignore-path .gitignore",
     "lint:fix": "npm run lint -- --fix",
-    "format": "prettier --write \"src/**/*.{css,html,json,md,ts,vue,yml}\""
+    "format": "prettier --write \"src/**/*.{css,html,json,md,ts,vue,yml}\" --ignore-path .gitignore"
   },
   "devDependencies": {
-    "@iconify-json/carbon": "^1.1.4",
-    "@typescript-eslint/eslint-plugin": "^5.24.0",
-    "@typescript-eslint/parser": "^5.24.0",
-    "@unocss/core": "^0.33.5",
-    "@unocss/preset-wind": "^0.33.5",
-    "@unocss/transformer-directives": "^0.33.5",
-    "duecss": "^0.25.9",
-    "eslint": "^8.15.0",
+    "@iconify-json/carbon": "^1.1.5",
+    "@typescript-eslint/eslint-plugin": "^5.27.1",
+    "@typescript-eslint/parser": "^5.27.1",
+    "@unocss/core": "^0.38.1",
+    "@unocss/preset-wind": "^0.38.1",
+    "@unocss/transformer-directives": "^0.38.1",
+    "duecss": "^0.26.0",
+    "eslint": "^8.17.0",
     "eslint-config-prettier": "^8.5.0",
-    "eslint-plugin-vue": "^8.7.1",
+    "eslint-plugin-vue": "^9.1.0",
     "iles": "^0.7.38",
     "prettier": "^2.6.2",
-    "typescript": "~4.6.4",
-    "unocss": "^0.33.5",
+    "typescript": "~4.7.3",
+    "unocss": "^0.38.1",
     "unplugin-icons": "^0.14.3",
-    "vitest": "^0.12.6",
-    "vue-tsc": "^0.34.15"
+    "vitest": "^0.14.1",
+    "vue-tsc": "^0.37.3"
   },
   "pnpm": {
     "peerDependencyRules": {
