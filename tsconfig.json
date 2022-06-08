@@ -1,10 +1,10 @@
 {
   "compilerOptions": {
-    "target": "esnext",
-    "lib": ["esnext", "dom", "dom.iterable", "scripthost"],
+    "target": "ESNext",
+    "lib": ["ESNext", "DOM", "DOM.Iterable", "ScriptHost"],
     "jsx": "preserve",
-    "module": "esnext",
-    "moduleResolution": "node",
+    "module": "ESNext",
+    "moduleResolution": "Node",
     "paths": {
       "~/*": ["./src/*"]
     },
