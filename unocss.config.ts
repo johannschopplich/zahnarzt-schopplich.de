@@ -1,5 +1,4 @@
 /* eslint-disable @typescript-eslint/no-non-null-assertion */
-/* eslint-disable @typescript-eslint/no-explicit-any */
 import { defineConfig } from "unocss";
 import { presetWind, theme } from "@unocss/preset-wind";
 import { presetDue } from "duecss";
